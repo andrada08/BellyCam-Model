@@ -1,0 +1,4 @@
+model_checkpoint_path: "C:\\Users\\Andrada\\Desktop\\Model BellyCam\\BellyCam Model-Andrada-2021-06-24\\dlc-models\\iteration-4\\BellyCam ModelJun24-trainset95shuffle1\\train\\snapshot-150000"
+all_model_checkpoint_paths: "C:\\Users\\Andrada\\Desktop\\Model BellyCam\\BellyCam Model-Andrada-2021-06-24\\dlc-models\\iteration-4\\BellyCam ModelJun24-trainset95shuffle1\\train\\snapshot-50000"
+all_model_checkpoint_paths: "C:\\Users\\Andrada\\Desktop\\Model BellyCam\\BellyCam Model-Andrada-2021-06-24\\dlc-models\\iteration-4\\BellyCam ModelJun24-trainset95shuffle1\\train\\snapshot-100000"
+all_model_checkpoint_paths: "C:\\Users\\Andrada\\Desktop\\Model BellyCam\\BellyCam Model-Andrada-2021-06-24\\dlc-models\\iteration-4\\BellyCam ModelJun24-trainset95shuffle1\\train\\snapshot-150000"
