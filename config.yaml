@@ -5,56 +5,57 @@ date: Jun24
 multianimalproject: false
 
     # Project path (change when moving around)
-project_path: C:\Users\Andrada\Desktop\Model BellyCam\BellyCam Model-Andrada-2021-06-24
+project_path: C:\Users\EnnyB\Documents\GitHub\BellyCam-Model
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-02-24_102_EB001_bellyCam.mj2:
+  \2021-02-24_102_EB001_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-03-04_101_CB007_bellyCam.mj2:
+  \2021-03-04_101_CB007_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-03-04_103_EB001_bellyCam.mj2:
+  \2021-03-04_103_EB001_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-03-08_104_EB001_bellyCam.mj2:
+  \2021-03-08_104_EB001_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-03-09_102_CB007_bellyCam.mj2:
+  \2021-03-09_102_CB007_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-03-18_102_CB008_bellyCam.mj2:
+  \2021-03-18_102_CB008_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-03-22_101_CB008_bellyCam.mj2:
+  \2021-03-22_101_CB008_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-05-15_104_EB002_bellyCam.mj2:
+  \2021-05-15_104_EB002_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-05-17_107_EB002_bellyCam.mj2:
+  \2021-05-17_107_EB002_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-05-20_101_EB003_bellyCam.mj2:
+  \2021-05-20_101_EB003_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-05-20_102_EB002_bellyCam.mj2:
+  \2021-05-20_102_EB002_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\Videos\2021-05-21_103_EB003_bellyCam.mj2:
+  \2021-05-21_103_EB003_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\New videos 1\2021-03-01_101_CB007_bellyCam.mj2:
+  \2021-03-01_101_CB007_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\New videos 1\2021-03-16_103_CB008_bellyCam.mj2:
+  \2021-03-16_103_CB008_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\New videos 1\2021-06-17_101_EB004_bellyCam.mj2:
+  \2021-06-17_101_EB004_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\New videos 1\2021-06-19_101_EB004_bellyCam.mj2:
+  \2021-06-19_101_EB004_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  C:\Users\Andrada\Desktop\Model BellyCam\New videos 1\2021-06-21_102_EB004_bellyCam.mj2:
+  \2021-06-21_102_EB004_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  D:\Andrada\New Videos 2\2021-03-05_101_EB001_bellyCam.mj2:
+  \2021-03-05_101_EB001_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  D:\Andrada\New Videos 2\2021-05-20_103_EB003_bellyCam.mj2:
+  \2021-05-20_103_EB003_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  D:\Andrada\New Videos 2\2021-06-16_101_EB005_bellyCam.mj2:
+  \2021-06-16_101_EB005_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  D:\Andrada\New Videos 2\2021-06-18_103_EB005_bellyCam.mj2:
+  \2021-06-18_103_EB005_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  D:\Andrada\New Videos 2\2021-06-20_102_EB005_bellyCam.mj2:
+  \2021-06-20_102_EB005_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  D:\Andrada\New Videos 2\2021-06-22_101_EB004_bellyCam.mj2:
+  \2021-06-22_101_EB004_bellyCam.mj2:
     crop: 0, 640, 0, 512
+
 bodyparts:
 - nose
 - neck
@@ -64,6 +65,7 @@ bodyparts:
 - righthindpaw
 - baseoftail
 - tail
+
 start: 0
 stop: 1
 numframes2pick: 20
