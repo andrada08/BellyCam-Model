@@ -4,7 +4,7 @@
 
 https://deeplabcut.github.io/DeepLabCut/docs/intro.html
 
-## 2. Clone this repository
+## 2. Clone/download this repository
 
 ## 3. Adjust configuration file
 
