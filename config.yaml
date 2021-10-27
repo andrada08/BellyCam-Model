@@ -5,7 +5,7 @@ date: Jun24
 multianimalproject: false
 
     # Project path (change when moving around)
-project_path: C:\Users\EnnyB\Documents\GitHub\BellyCam-Model
+project_path: C:\[yourpath]\GitHub\BellyCam-Model
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
