@@ -1,3 +1,5 @@
+How to use model:
+
 1. install DEEPLABCUT as usual (https://deeplabcut.github.io/DeepLabCut/docs/intro.html)
 2. Adjust configuration file
 Open \BellyCam-Model\config.yaml in a text editor. Change the following:
@@ -16,3 +18,6 @@ config_path = r'_path to config.yaml_' (the r is only necessary for Windows)
 videos = [_list of paths to the videos you want to analyse_]
 deeplabcut.analyze_videos(config_path, videos, save_as_csv = True) (the last argument saves the results also as a .csv file, which can be easily read by many softwares, e.g. Matlab; otherwise only an .h5 file is saved)
 (optional) deeplabcut.filterpredictions(config_path, videos) (this smooths the trajectories of the detected markers; look up the function for details)
+
+Wiki for eye tracking model for more detailed instructions: https://github.com/sylviaschroeder/PupilDetection_DLC/wiki
+
