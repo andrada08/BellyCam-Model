@@ -1,4 +1,4 @@
-# How to use model:
+# How to use this model
 
 ## 1. Install DeepLabCut (DLC) 
 
