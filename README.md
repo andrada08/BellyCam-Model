@@ -10,7 +10,7 @@ https://deeplabcut.github.io/DeepLabCut/docs/intro.html
 
 Open \BellyCam-Model\config.yaml in a text editor. Change the following:
 
-project path: the path to config.yaml
+* project path: the path to config.yaml
 
 ## 4. Run DLC to label videos
 
