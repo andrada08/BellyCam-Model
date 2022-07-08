@@ -1,0 +1,330 @@
+2022-04-12 14:27:12 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7]],
+ 'all_joints_names': ['nose',
+                      'neck',
+                      'leftforepaw',
+                      'rightforepaw',
+                      'lefthindpaw',
+                      'righthindpaw',
+                      'baseoftail',
+                      'tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-7\\UnaugmentedDataSet_BellyCam '
+            'ModelJun24\\BellyCam Model_Andrada95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': 'C:\\Users\\EnnyB\\anaconda3\\envs\\deeplabcut\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-7\\UnaugmentedDataSet_BellyCam '
+                'ModelJun24\\Documentation_data-BellyCam '
+                'Model_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 8,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': 'C:/Users/EnnyB/Documents/GitHub/BellyCam-Model',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\EnnyB\\Documents\\GitHub\\BellyCam-Model\\dlc-models\\iteration-7\\BellyCam '
+                    'ModelJun24-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-04-12 14:31:12 iteration: 1000 loss: 0.0332 lr: 0.005
+2022-04-12 14:33:02 iteration: 2000 loss: 0.0259 lr: 0.005
+2022-04-12 14:34:46 iteration: 3000 loss: 0.0229 lr: 0.005
+2022-04-12 14:36:31 iteration: 4000 loss: 0.0209 lr: 0.005
+2022-04-12 14:38:15 iteration: 5000 loss: 0.0189 lr: 0.005
+2022-04-12 14:39:59 iteration: 6000 loss: 0.0175 lr: 0.005
+2022-04-12 14:41:46 iteration: 7000 loss: 0.0167 lr: 0.005
+2022-04-12 14:43:30 iteration: 8000 loss: 0.0155 lr: 0.005
+2022-04-12 14:45:16 iteration: 9000 loss: 0.0148 lr: 0.005
+2022-04-12 14:47:00 iteration: 10000 loss: 0.0142 lr: 0.005
+2022-04-12 14:48:47 iteration: 11000 loss: 0.0167 lr: 0.02
+2022-04-12 14:50:34 iteration: 12000 loss: 0.0146 lr: 0.02
+2022-04-12 14:52:21 iteration: 13000 loss: 0.0133 lr: 0.02
+2022-04-12 14:54:06 iteration: 14000 loss: 0.0125 lr: 0.02
+2022-04-12 14:55:51 iteration: 15000 loss: 0.0119 lr: 0.02
+2022-04-12 14:57:37 iteration: 16000 loss: 0.0113 lr: 0.02
+2022-04-12 14:59:23 iteration: 17000 loss: 0.0107 lr: 0.02
+2022-04-12 15:01:10 iteration: 18000 loss: 0.0105 lr: 0.02
+2022-04-12 15:02:57 iteration: 19000 loss: 0.0099 lr: 0.02
+2022-04-12 15:04:46 iteration: 20000 loss: 0.0096 lr: 0.02
+2022-04-12 15:06:34 iteration: 21000 loss: 0.0092 lr: 0.02
+2022-04-12 15:08:20 iteration: 22000 loss: 0.0093 lr: 0.02
+2022-04-12 15:10:06 iteration: 23000 loss: 0.0091 lr: 0.02
+2022-04-12 15:11:53 iteration: 24000 loss: 0.0088 lr: 0.02
+2022-04-12 15:13:38 iteration: 25000 loss: 0.0087 lr: 0.02
+2022-04-12 15:15:23 iteration: 26000 loss: 0.0083 lr: 0.02
+2022-04-12 15:17:12 iteration: 27000 loss: 0.0083 lr: 0.02
+2022-04-12 15:19:00 iteration: 28000 loss: 0.0081 lr: 0.02
+2022-04-12 15:20:49 iteration: 29000 loss: 0.0082 lr: 0.02
+2022-04-12 15:22:36 iteration: 30000 loss: 0.0077 lr: 0.02
+2022-04-12 15:24:24 iteration: 31000 loss: 0.0076 lr: 0.02
+2022-04-12 15:26:10 iteration: 32000 loss: 0.0074 lr: 0.02
+2022-04-12 15:27:57 iteration: 33000 loss: 0.0073 lr: 0.02
+2022-04-12 15:29:46 iteration: 34000 loss: 0.0075 lr: 0.02
+2022-04-12 15:31:32 iteration: 35000 loss: 0.0072 lr: 0.02
+2022-04-12 15:33:18 iteration: 36000 loss: 0.0071 lr: 0.02
+2022-04-12 15:35:04 iteration: 37000 loss: 0.0069 lr: 0.02
+2022-04-12 15:36:52 iteration: 38000 loss: 0.0071 lr: 0.02
+2022-04-12 15:38:39 iteration: 39000 loss: 0.0069 lr: 0.02
+2022-04-12 15:40:27 iteration: 40000 loss: 0.0069 lr: 0.02
+2022-04-12 15:42:13 iteration: 41000 loss: 0.0069 lr: 0.02
+2022-04-12 15:44:00 iteration: 42000 loss: 0.0069 lr: 0.02
+2022-04-12 15:45:48 iteration: 43000 loss: 0.0065 lr: 0.02
+2022-04-12 15:47:38 iteration: 44000 loss: 0.0066 lr: 0.02
+2022-04-12 15:49:25 iteration: 45000 loss: 0.0065 lr: 0.02
+2022-04-12 15:51:11 iteration: 46000 loss: 0.0064 lr: 0.02
+2022-04-12 15:52:56 iteration: 47000 loss: 0.0063 lr: 0.02
+2022-04-12 15:54:43 iteration: 48000 loss: 0.0063 lr: 0.02
+2022-04-12 15:56:29 iteration: 49000 loss: 0.0061 lr: 0.02
+2022-04-12 15:58:14 iteration: 50000 loss: 0.0061 lr: 0.02
+2022-04-12 16:00:00 iteration: 51000 loss: 0.0060 lr: 0.02
+2022-04-12 16:01:46 iteration: 52000 loss: 0.0059 lr: 0.02
+2022-04-12 16:03:32 iteration: 53000 loss: 0.0061 lr: 0.02
+2022-04-12 16:05:18 iteration: 54000 loss: 0.0057 lr: 0.02
+2022-04-12 16:07:03 iteration: 55000 loss: 0.0058 lr: 0.02
+2022-04-12 16:08:46 iteration: 56000 loss: 0.0057 lr: 0.02
+2022-04-12 16:10:34 iteration: 57000 loss: 0.0057 lr: 0.02
+2022-04-12 16:12:18 iteration: 58000 loss: 0.0056 lr: 0.02
+2022-04-12 16:14:04 iteration: 59000 loss: 0.0056 lr: 0.02
+2022-04-12 16:15:49 iteration: 60000 loss: 0.0055 lr: 0.02
+2022-04-12 16:17:34 iteration: 61000 loss: 0.0055 lr: 0.02
+2022-04-12 16:19:21 iteration: 62000 loss: 0.0056 lr: 0.02
+2022-04-12 16:21:06 iteration: 63000 loss: 0.0054 lr: 0.02
+2022-04-12 16:22:50 iteration: 64000 loss: 0.0053 lr: 0.02
+2022-04-12 16:24:38 iteration: 65000 loss: 0.0052 lr: 0.02
+2022-04-12 16:26:29 iteration: 66000 loss: 0.0052 lr: 0.02
+2022-04-12 16:28:20 iteration: 67000 loss: 0.0053 lr: 0.02
+2022-04-12 16:30:10 iteration: 68000 loss: 0.0052 lr: 0.02
+2022-04-12 16:31:58 iteration: 69000 loss: 0.0052 lr: 0.02
+2022-04-12 16:47:55 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7]],
+ 'all_joints_names': ['nose',
+                      'neck',
+                      'leftforepaw',
+                      'rightforepaw',
+                      'lefthindpaw',
+                      'righthindpaw',
+                      'baseoftail',
+                      'tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-7\\UnaugmentedDataSet_BellyCam '
+            'ModelJun24\\BellyCam Model_Andrada95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': 'C:\\Users\\EnnyB\\anaconda3\\envs\\deeplabcut\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-7\\UnaugmentedDataSet_BellyCam '
+                'ModelJun24\\Documentation_data-BellyCam '
+                'Model_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 8,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': 'C:/Users/EnnyB/Documents/GitHub/BellyCam-Model',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': 'C:\\Users\\EnnyB\\Documents\\GitHub\\BellyCam-Model\\dlc-models\\iteration-7\\BellyCam '
+                    'ModelJun24-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-04-12 16:51:57 iteration: 1000 loss: 0.0334 lr: 0.005
+2022-04-12 16:53:45 iteration: 2000 loss: 0.0246 lr: 0.005
+2022-04-12 16:55:33 iteration: 3000 loss: 0.0223 lr: 0.005
+2022-04-12 16:57:22 iteration: 4000 loss: 0.0200 lr: 0.005
+2022-04-12 16:59:11 iteration: 5000 loss: 0.0189 lr: 0.005
+2022-04-12 17:00:57 iteration: 6000 loss: 0.0174 lr: 0.005
+2022-04-12 17:02:43 iteration: 7000 loss: 0.0162 lr: 0.005
+2022-04-12 17:04:34 iteration: 8000 loss: 0.0157 lr: 0.005
+2022-04-12 17:06:19 iteration: 9000 loss: 0.0146 lr: 0.005
+2022-04-12 17:08:08 iteration: 10000 loss: 0.0143 lr: 0.005
+2022-04-12 17:09:53 iteration: 11000 loss: 0.0163 lr: 0.02
+2022-04-12 17:11:38 iteration: 12000 loss: 0.0148 lr: 0.02
+2022-04-12 17:13:24 iteration: 13000 loss: 0.0135 lr: 0.02
+2022-04-12 17:15:09 iteration: 14000 loss: 0.0124 lr: 0.02
+2022-04-12 17:16:54 iteration: 15000 loss: 0.0120 lr: 0.02
+2022-04-12 17:18:40 iteration: 16000 loss: 0.0115 lr: 0.02
+2022-04-12 17:20:24 iteration: 17000 loss: 0.0105 lr: 0.02
+2022-04-12 17:22:08 iteration: 18000 loss: 0.0102 lr: 0.02
+2022-04-12 17:23:52 iteration: 19000 loss: 0.0101 lr: 0.02
+2022-04-12 17:25:38 iteration: 20000 loss: 0.0098 lr: 0.02
+2022-04-12 17:27:24 iteration: 21000 loss: 0.0097 lr: 0.02
+2022-04-12 17:29:09 iteration: 22000 loss: 0.0093 lr: 0.02
+2022-04-12 17:30:55 iteration: 23000 loss: 0.0092 lr: 0.02
+2022-04-12 17:32:42 iteration: 24000 loss: 0.0090 lr: 0.02
+2022-04-12 17:34:28 iteration: 25000 loss: 0.0088 lr: 0.02
+2022-04-12 17:36:12 iteration: 26000 loss: 0.0085 lr: 0.02
+2022-04-12 17:37:56 iteration: 27000 loss: 0.0083 lr: 0.02
+2022-04-12 17:39:40 iteration: 28000 loss: 0.0081 lr: 0.02
+2022-04-12 17:41:26 iteration: 29000 loss: 0.0081 lr: 0.02
+2022-04-12 17:43:10 iteration: 30000 loss: 0.0079 lr: 0.02
+2022-04-12 17:44:56 iteration: 31000 loss: 0.0079 lr: 0.02
+2022-04-12 17:46:41 iteration: 32000 loss: 0.0077 lr: 0.02
+2022-04-12 17:48:24 iteration: 33000 loss: 0.0073 lr: 0.02
+2022-04-12 17:50:09 iteration: 34000 loss: 0.0074 lr: 0.02
+2022-04-12 17:51:54 iteration: 35000 loss: 0.0073 lr: 0.02
+2022-04-12 17:53:41 iteration: 36000 loss: 0.0072 lr: 0.02
+2022-04-12 17:55:26 iteration: 37000 loss: 0.0071 lr: 0.02
+2022-04-12 17:57:11 iteration: 38000 loss: 0.0068 lr: 0.02
+2022-04-12 17:58:57 iteration: 39000 loss: 0.0068 lr: 0.02
+2022-04-12 18:00:42 iteration: 40000 loss: 0.0069 lr: 0.02
+2022-04-12 18:02:27 iteration: 41000 loss: 0.0068 lr: 0.02
+2022-04-12 18:04:12 iteration: 42000 loss: 0.0067 lr: 0.02
+2022-04-12 18:05:57 iteration: 43000 loss: 0.0066 lr: 0.02
+2022-04-12 18:07:43 iteration: 44000 loss: 0.0066 lr: 0.02
+2022-04-12 18:09:28 iteration: 45000 loss: 0.0065 lr: 0.02
+2022-04-12 18:11:14 iteration: 46000 loss: 0.0064 lr: 0.02
+2022-04-13 11:15:52 iteration: 47000 loss: 0.0062 lr: 0.02
+2022-04-13 11:17:37 iteration: 48000 loss: 0.0063 lr: 0.02
+2022-04-13 11:19:23 iteration: 49000 loss: 0.0062 lr: 0.02
+2022-04-13 11:21:07 iteration: 50000 loss: 0.0063 lr: 0.02
+2022-04-13 11:22:51 iteration: 51000 loss: 0.0061 lr: 0.02
+2022-04-13 11:24:35 iteration: 52000 loss: 0.0061 lr: 0.02
+2022-04-13 11:26:18 iteration: 53000 loss: 0.0060 lr: 0.02
+2022-04-13 11:28:04 iteration: 54000 loss: 0.0058 lr: 0.02
+2022-04-13 11:29:49 iteration: 55000 loss: 0.0059 lr: 0.02
+2022-04-13 11:31:35 iteration: 56000 loss: 0.0059 lr: 0.02
+2022-04-13 11:33:20 iteration: 57000 loss: 0.0058 lr: 0.02
+2022-04-13 11:35:06 iteration: 58000 loss: 0.0057 lr: 0.02
+2022-04-13 11:36:51 iteration: 59000 loss: 0.0056 lr: 0.02
+2022-04-13 11:38:35 iteration: 60000 loss: 0.0056 lr: 0.02
+2022-04-13 11:40:20 iteration: 61000 loss: 0.0055 lr: 0.02
+2022-04-13 11:42:06 iteration: 62000 loss: 0.0057 lr: 0.02
+2022-04-13 11:43:51 iteration: 63000 loss: 0.0054 lr: 0.02
+2022-04-13 11:45:36 iteration: 64000 loss: 0.0054 lr: 0.02
+2022-04-13 11:47:20 iteration: 65000 loss: 0.0055 lr: 0.02
+2022-04-13 11:49:04 iteration: 66000 loss: 0.0053 lr: 0.02
+2022-04-13 11:50:50 iteration: 67000 loss: 0.0053 lr: 0.02
+2022-04-13 11:52:35 iteration: 68000 loss: 0.0052 lr: 0.02
+2022-04-13 11:54:20 iteration: 69000 loss: 0.0052 lr: 0.02
+2022-04-13 11:56:04 iteration: 70000 loss: 0.0052 lr: 0.02
+2022-04-13 11:57:48 iteration: 71000 loss: 0.0051 lr: 0.02
+2022-04-13 11:59:33 iteration: 72000 loss: 0.0051 lr: 0.02
+2022-04-13 12:01:19 iteration: 73000 loss: 0.0051 lr: 0.02
+2022-04-13 12:03:04 iteration: 74000 loss: 0.0051 lr: 0.02
+2022-04-13 12:04:49 iteration: 75000 loss: 0.0051 lr: 0.02
+2022-04-13 12:06:33 iteration: 76000 loss: 0.0051 lr: 0.02
+2022-04-13 12:08:18 iteration: 77000 loss: 0.0050 lr: 0.02
+2022-04-13 12:10:03 iteration: 78000 loss: 0.0050 lr: 0.02
+2022-04-13 12:11:48 iteration: 79000 loss: 0.0049 lr: 0.02
+2022-04-13 12:13:35 iteration: 80000 loss: 0.0050 lr: 0.02
+2022-04-13 12:15:21 iteration: 81000 loss: 0.0049 lr: 0.02
+2022-04-13 22:36:13 iteration: 82000 loss: 0.0049 lr: 0.02
+2022-04-13 22:37:58 iteration: 83000 loss: 0.0046 lr: 0.02
+2022-04-13 22:39:41 iteration: 84000 loss: 0.0049 lr: 0.02
+2022-04-13 22:41:24 iteration: 85000 loss: 0.0047 lr: 0.02
+2022-04-13 22:43:08 iteration: 86000 loss: 0.0047 lr: 0.02
+2022-04-13 22:44:51 iteration: 87000 loss: 0.0047 lr: 0.02
+2022-04-13 22:46:37 iteration: 88000 loss: 0.0047 lr: 0.02
+2022-04-13 22:48:21 iteration: 89000 loss: 0.0046 lr: 0.02
+2022-04-13 22:50:07 iteration: 90000 loss: 0.0046 lr: 0.02
+2022-04-13 22:51:50 iteration: 91000 loss: 0.0045 lr: 0.02
+2022-04-13 22:53:36 iteration: 92000 loss: 0.0046 lr: 0.02
+2022-04-13 22:55:22 iteration: 93000 loss: 0.0045 lr: 0.02
+2022-04-13 22:57:08 iteration: 94000 loss: 0.0046 lr: 0.02
+2022-04-13 22:58:53 iteration: 95000 loss: 0.0046 lr: 0.02
+2022-04-13 23:00:39 iteration: 96000 loss: 0.0045 lr: 0.02
+2022-04-13 23:02:25 iteration: 97000 loss: 0.0045 lr: 0.02
+2022-04-13 23:04:11 iteration: 98000 loss: 0.0045 lr: 0.02
+2022-04-13 23:05:54 iteration: 99000 loss: 0.0044 lr: 0.02
+2022-04-13 23:07:40 iteration: 100000 loss: 0.0045 lr: 0.02
+2022-04-13 23:09:26 iteration: 101000 loss: 0.0044 lr: 0.02
+2022-04-13 23:11:10 iteration: 102000 loss: 0.0044 lr: 0.02
+2022-04-13 23:12:55 iteration: 103000 loss: 0.0045 lr: 0.02
