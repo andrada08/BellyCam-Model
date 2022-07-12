@@ -56,18 +56,7 @@ video_sets:
     crop: 0, 640, 0, 512
   \2021-06-22_101_EB004_bellyCam.mj2:
     crop: 0, 640, 0, 512
-  \2022-01-18_101_EB010_bellyCam.mj2:
-    crop: 0, 640, 0, 512
-  \2022-01-25_102_EB011_bellyCam.mj2:
-    crop: 0, 640, 0, 512
-  \2021-12-16_102_CB020_bellyCam.mj2:
-    crop: 0, 640, 0, 512
- \2021-12-10_103_FT039_bellyCam.mj2:
-    crop: 0, 640, 0, 512
-  \2022-03-19_103_EB012_bellyCam.mj2:
-    crop: 0, 640, 0, 512
-  \2022-03-19_103_EB013_bellyCam.mj2:
-    crop: 0, 640, 0, 512
+
 bodyparts:
 - nose
 - neck
@@ -78,13 +67,19 @@ bodyparts:
 - baseoftail
 - tail
 
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
 start: 0
 stop: 1
 numframes2pick: 20
 
     # Plotting configuration
-skeleton: [['leftforepaw','neck'],['rightforepaw','neck'],['lefthindpaw','baseoftail'],['righthindpaw','baseoftail'],['baseoftail','neck']]
-skeleton_color: white
+skeleton:
+- - bodypart1
+  - bodypart2
+- - objectA
+  - bodypart3
+skeleton_color: black
 pcutoff: 0.6
 dotsize: 8
 alphavalue: 0.7
