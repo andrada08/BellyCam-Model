@@ -1,0 +1,1281 @@
+2022-07-22 10:52:47 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7]],
+ 'all_joints_names': ['nose',
+                      'neck',
+                      'leftforepaw',
+                      'rightforepaw',
+                      'lefthindpaw',
+                      'righthindpaw',
+                      'baseoftail',
+                      'tail'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 1,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets\\iteration-8\\UnaugmentedDataSet_BellyCam '
+            'ModelJun24\\BellyCam Model_Andrada95shuffle1.mat',
+ 'dataset_type': 'default',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 1000,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': 'C:\\Users\\Experiment\\anaconda3\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets\\iteration-8\\UnaugmentedDataSet_BellyCam '
+                'ModelJun24\\Documentation_data-BellyCam '
+                'Model_95shuffle1.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.005, 10000],
+                [0.02, 430000],
+                [0.002, 730000],
+                [0.001, 1030000]],
+ 'net_type': 'resnet_50',
+ 'num_joints': 8,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': False,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'pos_dist_thresh': 17,
+ 'project_path': 'D:\\Brandon\\BellyCam-Model',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 50000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': 'D:\\Brandon\\BellyCam-Model\\dlc-models\\iteration-8\\BellyCam '
+                    'ModelJun24-trainset95shuffle1\\train\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-07-22 10:55:58 iteration: 1000 loss: 0.0328 lr: 0.005
+2022-07-22 10:57:21 iteration: 2000 loss: 0.0247 lr: 0.005
+2022-07-22 10:58:42 iteration: 3000 loss: 0.0220 lr: 0.005
+2022-07-22 11:00:03 iteration: 4000 loss: 0.0203 lr: 0.005
+2022-07-22 11:01:24 iteration: 5000 loss: 0.0186 lr: 0.005
+2022-07-22 11:02:44 iteration: 6000 loss: 0.0172 lr: 0.005
+2022-07-22 11:04:03 iteration: 7000 loss: 0.0160 lr: 0.005
+2022-07-22 11:05:22 iteration: 8000 loss: 0.0155 lr: 0.005
+2022-07-22 11:06:44 iteration: 9000 loss: 0.0149 lr: 0.005
+2022-07-22 11:08:04 iteration: 10000 loss: 0.0139 lr: 0.005
+2022-07-22 11:09:25 iteration: 11000 loss: 0.0163 lr: 0.02
+2022-07-22 11:10:44 iteration: 12000 loss: 0.0144 lr: 0.02
+2022-07-22 11:12:03 iteration: 13000 loss: 0.0129 lr: 0.02
+2022-07-22 11:13:23 iteration: 14000 loss: 0.0122 lr: 0.02
+2022-07-22 11:14:44 iteration: 15000 loss: 0.0118 lr: 0.02
+2022-07-22 11:16:05 iteration: 16000 loss: 0.0110 lr: 0.02
+2022-07-22 11:17:25 iteration: 17000 loss: 0.0105 lr: 0.02
+2022-07-22 11:18:45 iteration: 18000 loss: 0.0101 lr: 0.02
+2022-07-22 11:20:05 iteration: 19000 loss: 0.0098 lr: 0.02
+2022-07-22 11:21:25 iteration: 20000 loss: 0.0093 lr: 0.02
+2022-07-22 11:22:46 iteration: 21000 loss: 0.0092 lr: 0.02
+2022-07-22 11:24:07 iteration: 22000 loss: 0.0089 lr: 0.02
+2022-07-22 11:25:27 iteration: 23000 loss: 0.0088 lr: 0.02
+2022-07-22 11:26:47 iteration: 24000 loss: 0.0086 lr: 0.02
+2022-07-22 11:28:08 iteration: 25000 loss: 0.0083 lr: 0.02
+2022-07-22 11:29:28 iteration: 26000 loss: 0.0079 lr: 0.02
+2022-07-22 11:30:48 iteration: 27000 loss: 0.0079 lr: 0.02
+2022-07-22 11:32:08 iteration: 28000 loss: 0.0078 lr: 0.02
+2022-07-22 11:33:27 iteration: 29000 loss: 0.0075 lr: 0.02
+2022-07-22 11:34:48 iteration: 30000 loss: 0.0077 lr: 0.02
+2022-07-22 11:36:08 iteration: 31000 loss: 0.0073 lr: 0.02
+2022-07-22 11:37:29 iteration: 32000 loss: 0.0073 lr: 0.02
+2022-07-22 11:38:49 iteration: 33000 loss: 0.0072 lr: 0.02
+2022-07-22 11:40:08 iteration: 34000 loss: 0.0071 lr: 0.02
+2022-07-22 11:41:28 iteration: 35000 loss: 0.0070 lr: 0.02
+2022-07-22 11:42:48 iteration: 36000 loss: 0.0069 lr: 0.02
+2022-07-22 11:44:09 iteration: 37000 loss: 0.0067 lr: 0.02
+2022-07-22 11:45:30 iteration: 38000 loss: 0.0066 lr: 0.02
+2022-07-22 11:46:50 iteration: 39000 loss: 0.0064 lr: 0.02
+2022-07-22 11:48:10 iteration: 40000 loss: 0.0065 lr: 0.02
+2022-07-22 11:49:30 iteration: 41000 loss: 0.0065 lr: 0.02
+2022-07-22 11:50:50 iteration: 42000 loss: 0.0062 lr: 0.02
+2022-07-22 11:52:09 iteration: 43000 loss: 0.0061 lr: 0.02
+2022-07-22 11:53:30 iteration: 44000 loss: 0.0062 lr: 0.02
+2022-07-22 11:54:50 iteration: 45000 loss: 0.0062 lr: 0.02
+2022-07-22 11:56:11 iteration: 46000 loss: 0.0061 lr: 0.02
+2022-07-22 11:57:31 iteration: 47000 loss: 0.0059 lr: 0.02
+2022-07-22 11:58:51 iteration: 48000 loss: 0.0058 lr: 0.02
+2022-07-22 12:00:12 iteration: 49000 loss: 0.0060 lr: 0.02
+2022-07-22 12:01:32 iteration: 50000 loss: 0.0057 lr: 0.02
+2022-07-22 12:02:55 iteration: 51000 loss: 0.0059 lr: 0.02
+2022-07-22 12:04:16 iteration: 52000 loss: 0.0056 lr: 0.02
+2022-07-22 12:05:36 iteration: 53000 loss: 0.0056 lr: 0.02
+2022-07-22 12:06:56 iteration: 54000 loss: 0.0056 lr: 0.02
+2022-07-22 12:08:17 iteration: 55000 loss: 0.0054 lr: 0.02
+2022-07-22 12:09:38 iteration: 56000 loss: 0.0054 lr: 0.02
+2022-07-22 12:10:58 iteration: 57000 loss: 0.0054 lr: 0.02
+2022-07-22 12:12:18 iteration: 58000 loss: 0.0054 lr: 0.02
+2022-07-22 12:13:38 iteration: 59000 loss: 0.0053 lr: 0.02
+2022-07-22 12:14:58 iteration: 60000 loss: 0.0054 lr: 0.02
+2022-07-22 12:16:17 iteration: 61000 loss: 0.0052 lr: 0.02
+2022-07-22 12:17:38 iteration: 62000 loss: 0.0052 lr: 0.02
+2022-07-22 12:18:57 iteration: 63000 loss: 0.0050 lr: 0.02
+2022-07-22 12:20:16 iteration: 64000 loss: 0.0051 lr: 0.02
+2022-07-22 12:21:36 iteration: 65000 loss: 0.0051 lr: 0.02
+2022-07-22 12:22:55 iteration: 66000 loss: 0.0050 lr: 0.02
+2022-07-22 12:24:16 iteration: 67000 loss: 0.0050 lr: 0.02
+2022-07-22 12:25:35 iteration: 68000 loss: 0.0048 lr: 0.02
+2022-07-22 12:26:56 iteration: 69000 loss: 0.0050 lr: 0.02
+2022-07-22 12:28:16 iteration: 70000 loss: 0.0049 lr: 0.02
+2022-07-22 12:29:36 iteration: 71000 loss: 0.0048 lr: 0.02
+2022-07-22 12:30:57 iteration: 72000 loss: 0.0049 lr: 0.02
+2022-07-22 12:32:18 iteration: 73000 loss: 0.0047 lr: 0.02
+2022-07-22 12:33:38 iteration: 74000 loss: 0.0048 lr: 0.02
+2022-07-22 12:34:58 iteration: 75000 loss: 0.0047 lr: 0.02
+2022-07-22 12:36:18 iteration: 76000 loss: 0.0046 lr: 0.02
+2022-07-22 12:37:40 iteration: 77000 loss: 0.0048 lr: 0.02
+2022-07-22 12:39:00 iteration: 78000 loss: 0.0047 lr: 0.02
+2022-07-22 12:40:20 iteration: 79000 loss: 0.0047 lr: 0.02
+2022-07-22 12:41:40 iteration: 80000 loss: 0.0047 lr: 0.02
+2022-07-22 12:43:01 iteration: 81000 loss: 0.0046 lr: 0.02
+2022-07-22 12:44:21 iteration: 82000 loss: 0.0044 lr: 0.02
+2022-07-22 12:45:40 iteration: 83000 loss: 0.0045 lr: 0.02
+2022-07-22 12:47:00 iteration: 84000 loss: 0.0045 lr: 0.02
+2022-07-22 12:48:21 iteration: 85000 loss: 0.0044 lr: 0.02
+2022-07-22 12:49:39 iteration: 86000 loss: 0.0046 lr: 0.02
+2022-07-22 12:50:55 iteration: 87000 loss: 0.0045 lr: 0.02
+2022-07-22 12:52:11 iteration: 88000 loss: 0.0044 lr: 0.02
+2022-07-22 12:53:27 iteration: 89000 loss: 0.0043 lr: 0.02
+2022-07-22 12:54:44 iteration: 90000 loss: 0.0043 lr: 0.02
+2022-07-22 12:56:05 iteration: 91000 loss: 0.0042 lr: 0.02
+2022-07-22 12:57:24 iteration: 92000 loss: 0.0042 lr: 0.02
+2022-07-22 12:58:46 iteration: 93000 loss: 0.0043 lr: 0.02
+2022-07-22 13:00:06 iteration: 94000 loss: 0.0044 lr: 0.02
+2022-07-22 13:01:26 iteration: 95000 loss: 0.0042 lr: 0.02
+2022-07-22 13:02:44 iteration: 96000 loss: 0.0042 lr: 0.02
+2022-07-22 13:04:04 iteration: 97000 loss: 0.0043 lr: 0.02
+2022-07-22 13:05:24 iteration: 98000 loss: 0.0041 lr: 0.02
+2022-07-22 13:06:42 iteration: 99000 loss: 0.0042 lr: 0.02
+2022-07-22 13:08:00 iteration: 100000 loss: 0.0042 lr: 0.02
+2022-07-22 13:09:21 iteration: 101000 loss: 0.0041 lr: 0.02
+2022-07-22 13:10:40 iteration: 102000 loss: 0.0042 lr: 0.02
+2022-07-22 13:12:01 iteration: 103000 loss: 0.0040 lr: 0.02
+2022-07-22 13:13:22 iteration: 104000 loss: 0.0040 lr: 0.02
+2022-07-22 13:14:43 iteration: 105000 loss: 0.0041 lr: 0.02
+2022-07-22 13:16:03 iteration: 106000 loss: 0.0041 lr: 0.02
+2022-07-22 13:17:25 iteration: 107000 loss: 0.0041 lr: 0.02
+2022-07-22 13:18:45 iteration: 108000 loss: 0.0039 lr: 0.02
+2022-07-22 13:20:05 iteration: 109000 loss: 0.0039 lr: 0.02
+2022-07-22 13:21:26 iteration: 110000 loss: 0.0040 lr: 0.02
+2022-07-22 13:22:46 iteration: 111000 loss: 0.0039 lr: 0.02
+2022-07-22 13:24:07 iteration: 112000 loss: 0.0039 lr: 0.02
+2022-07-22 13:25:26 iteration: 113000 loss: 0.0038 lr: 0.02
+2022-07-22 13:26:45 iteration: 114000 loss: 0.0038 lr: 0.02
+2022-07-22 13:28:05 iteration: 115000 loss: 0.0039 lr: 0.02
+2022-07-22 13:29:24 iteration: 116000 loss: 0.0039 lr: 0.02
+2022-07-22 13:30:44 iteration: 117000 loss: 0.0039 lr: 0.02
+2022-07-22 13:32:03 iteration: 118000 loss: 0.0038 lr: 0.02
+2022-07-22 13:33:23 iteration: 119000 loss: 0.0037 lr: 0.02
+2022-07-22 13:34:43 iteration: 120000 loss: 0.0038 lr: 0.02
+2022-07-22 13:36:03 iteration: 121000 loss: 0.0038 lr: 0.02
+2022-07-22 13:37:23 iteration: 122000 loss: 0.0037 lr: 0.02
+2022-07-22 13:38:43 iteration: 123000 loss: 0.0036 lr: 0.02
+2022-07-22 13:40:04 iteration: 124000 loss: 0.0038 lr: 0.02
+2022-07-22 13:41:25 iteration: 125000 loss: 0.0037 lr: 0.02
+2022-07-22 13:42:44 iteration: 126000 loss: 0.0038 lr: 0.02
+2022-07-22 13:44:04 iteration: 127000 loss: 0.0037 lr: 0.02
+2022-07-22 13:45:23 iteration: 128000 loss: 0.0037 lr: 0.02
+2022-07-22 13:46:43 iteration: 129000 loss: 0.0036 lr: 0.02
+2022-07-22 13:48:04 iteration: 130000 loss: 0.0037 lr: 0.02
+2022-07-22 13:49:23 iteration: 131000 loss: 0.0036 lr: 0.02
+2022-07-22 13:50:43 iteration: 132000 loss: 0.0036 lr: 0.02
+2022-07-22 13:52:04 iteration: 133000 loss: 0.0036 lr: 0.02
+2022-07-22 13:53:23 iteration: 134000 loss: 0.0036 lr: 0.02
+2022-07-22 13:54:43 iteration: 135000 loss: 0.0035 lr: 0.02
+2022-07-22 13:56:03 iteration: 136000 loss: 0.0037 lr: 0.02
+2022-07-22 13:57:22 iteration: 137000 loss: 0.0036 lr: 0.02
+2022-07-22 13:58:42 iteration: 138000 loss: 0.0035 lr: 0.02
+2022-07-22 14:00:02 iteration: 139000 loss: 0.0035 lr: 0.02
+2022-07-22 14:01:22 iteration: 140000 loss: 0.0035 lr: 0.02
+2022-07-22 14:02:43 iteration: 141000 loss: 0.0035 lr: 0.02
+2022-07-22 14:04:04 iteration: 142000 loss: 0.0034 lr: 0.02
+2022-07-22 14:05:24 iteration: 143000 loss: 0.0035 lr: 0.02
+2022-07-22 14:06:44 iteration: 144000 loss: 0.0035 lr: 0.02
+2022-07-22 14:08:04 iteration: 145000 loss: 0.0034 lr: 0.02
+2022-07-22 14:09:22 iteration: 146000 loss: 0.0034 lr: 0.02
+2022-07-22 14:10:42 iteration: 147000 loss: 0.0034 lr: 0.02
+2022-07-22 14:12:02 iteration: 148000 loss: 0.0034 lr: 0.02
+2022-07-22 14:13:22 iteration: 149000 loss: 0.0033 lr: 0.02
+2022-07-22 14:14:42 iteration: 150000 loss: 0.0034 lr: 0.02
+2022-07-22 14:16:04 iteration: 151000 loss: 0.0034 lr: 0.02
+2022-07-22 14:17:24 iteration: 152000 loss: 0.0033 lr: 0.02
+2022-07-22 14:18:45 iteration: 153000 loss: 0.0034 lr: 0.02
+2022-07-22 14:20:05 iteration: 154000 loss: 0.0033 lr: 0.02
+2022-07-22 14:21:25 iteration: 155000 loss: 0.0033 lr: 0.02
+2022-07-22 14:22:45 iteration: 156000 loss: 0.0033 lr: 0.02
+2022-07-22 14:24:05 iteration: 157000 loss: 0.0033 lr: 0.02
+2022-07-22 14:25:25 iteration: 158000 loss: 0.0032 lr: 0.02
+2022-07-22 14:26:45 iteration: 159000 loss: 0.0033 lr: 0.02
+2022-07-22 14:28:05 iteration: 160000 loss: 0.0033 lr: 0.02
+2022-07-22 14:29:25 iteration: 161000 loss: 0.0032 lr: 0.02
+2022-07-22 14:30:45 iteration: 162000 loss: 0.0032 lr: 0.02
+2022-07-22 14:32:05 iteration: 163000 loss: 0.0032 lr: 0.02
+2022-07-22 14:33:25 iteration: 164000 loss: 0.0032 lr: 0.02
+2022-07-22 14:34:46 iteration: 165000 loss: 0.0032 lr: 0.02
+2022-07-22 14:36:06 iteration: 166000 loss: 0.0032 lr: 0.02
+2022-07-22 14:37:26 iteration: 167000 loss: 0.0032 lr: 0.02
+2022-07-22 14:38:46 iteration: 168000 loss: 0.0032 lr: 0.02
+2022-07-22 14:40:05 iteration: 169000 loss: 0.0031 lr: 0.02
+2022-07-22 14:41:26 iteration: 170000 loss: 0.0032 lr: 0.02
+2022-07-22 14:42:46 iteration: 171000 loss: 0.0032 lr: 0.02
+2022-07-22 14:44:08 iteration: 172000 loss: 0.0031 lr: 0.02
+2022-07-22 14:45:28 iteration: 173000 loss: 0.0031 lr: 0.02
+2022-07-22 14:46:48 iteration: 174000 loss: 0.0031 lr: 0.02
+2022-07-22 14:48:09 iteration: 175000 loss: 0.0031 lr: 0.02
+2022-07-22 14:49:29 iteration: 176000 loss: 0.0030 lr: 0.02
+2022-07-22 14:50:49 iteration: 177000 loss: 0.0032 lr: 0.02
+2022-07-22 14:52:09 iteration: 178000 loss: 0.0031 lr: 0.02
+2022-07-22 14:53:31 iteration: 179000 loss: 0.0032 lr: 0.02
+2022-07-22 14:54:51 iteration: 180000 loss: 0.0031 lr: 0.02
+2022-07-22 14:56:11 iteration: 181000 loss: 0.0031 lr: 0.02
+2022-07-22 14:57:30 iteration: 182000 loss: 0.0030 lr: 0.02
+2022-07-22 14:58:50 iteration: 183000 loss: 0.0030 lr: 0.02
+2022-07-22 15:00:11 iteration: 184000 loss: 0.0031 lr: 0.02
+2022-07-22 15:01:32 iteration: 185000 loss: 0.0031 lr: 0.02
+2022-07-22 15:02:52 iteration: 186000 loss: 0.0031 lr: 0.02
+2022-07-22 15:04:11 iteration: 187000 loss: 0.0029 lr: 0.02
+2022-07-22 15:05:32 iteration: 188000 loss: 0.0030 lr: 0.02
+2022-07-22 15:06:52 iteration: 189000 loss: 0.0030 lr: 0.02
+2022-07-22 15:08:11 iteration: 190000 loss: 0.0030 lr: 0.02
+2022-07-22 15:09:32 iteration: 191000 loss: 0.0031 lr: 0.02
+2022-07-22 15:10:51 iteration: 192000 loss: 0.0030 lr: 0.02
+2022-07-22 15:12:11 iteration: 193000 loss: 0.0030 lr: 0.02
+2022-07-22 15:13:32 iteration: 194000 loss: 0.0031 lr: 0.02
+2022-07-22 15:14:52 iteration: 195000 loss: 0.0030 lr: 0.02
+2022-07-22 15:16:13 iteration: 196000 loss: 0.0030 lr: 0.02
+2022-07-22 15:17:33 iteration: 197000 loss: 0.0029 lr: 0.02
+2022-07-22 15:18:54 iteration: 198000 loss: 0.0029 lr: 0.02
+2022-07-22 15:20:14 iteration: 199000 loss: 0.0031 lr: 0.02
+2022-07-22 15:21:35 iteration: 200000 loss: 0.0030 lr: 0.02
+2022-07-22 15:22:56 iteration: 201000 loss: 0.0029 lr: 0.02
+2022-07-22 15:24:16 iteration: 202000 loss: 0.0030 lr: 0.02
+2022-07-22 15:25:37 iteration: 203000 loss: 0.0029 lr: 0.02
+2022-07-22 15:26:57 iteration: 204000 loss: 0.0029 lr: 0.02
+2022-07-22 15:28:17 iteration: 205000 loss: 0.0030 lr: 0.02
+2022-07-22 15:29:37 iteration: 206000 loss: 0.0029 lr: 0.02
+2022-07-22 15:30:58 iteration: 207000 loss: 0.0029 lr: 0.02
+2022-07-22 15:32:19 iteration: 208000 loss: 0.0029 lr: 0.02
+2022-07-22 15:33:40 iteration: 209000 loss: 0.0029 lr: 0.02
+2022-07-22 15:35:01 iteration: 210000 loss: 0.0029 lr: 0.02
+2022-07-22 15:36:22 iteration: 211000 loss: 0.0028 lr: 0.02
+2022-07-22 15:37:42 iteration: 212000 loss: 0.0028 lr: 0.02
+2022-07-22 15:39:01 iteration: 213000 loss: 0.0029 lr: 0.02
+2022-07-22 15:40:21 iteration: 214000 loss: 0.0029 lr: 0.02
+2022-07-22 15:41:42 iteration: 215000 loss: 0.0029 lr: 0.02
+2022-07-22 15:43:02 iteration: 216000 loss: 0.0028 lr: 0.02
+2022-07-22 15:44:22 iteration: 217000 loss: 0.0028 lr: 0.02
+2022-07-22 15:45:41 iteration: 218000 loss: 0.0028 lr: 0.02
+2022-07-22 15:47:02 iteration: 219000 loss: 0.0028 lr: 0.02
+2022-07-22 15:48:23 iteration: 220000 loss: 0.0029 lr: 0.02
+2022-07-22 15:49:43 iteration: 221000 loss: 0.0028 lr: 0.02
+2022-07-22 15:51:03 iteration: 222000 loss: 0.0028 lr: 0.02
+2022-07-22 15:52:23 iteration: 223000 loss: 0.0029 lr: 0.02
+2022-07-22 15:53:44 iteration: 224000 loss: 0.0028 lr: 0.02
+2022-07-22 15:55:04 iteration: 225000 loss: 0.0028 lr: 0.02
+2022-07-22 15:56:24 iteration: 226000 loss: 0.0027 lr: 0.02
+2022-07-22 15:57:44 iteration: 227000 loss: 0.0028 lr: 0.02
+2022-07-22 15:59:05 iteration: 228000 loss: 0.0028 lr: 0.02
+2022-07-22 16:00:26 iteration: 229000 loss: 0.0028 lr: 0.02
+2022-07-22 16:01:46 iteration: 230000 loss: 0.0027 lr: 0.02
+2022-07-22 16:03:07 iteration: 231000 loss: 0.0028 lr: 0.02
+2022-07-22 16:04:27 iteration: 232000 loss: 0.0027 lr: 0.02
+2022-07-22 16:05:47 iteration: 233000 loss: 0.0027 lr: 0.02
+2022-07-22 16:07:07 iteration: 234000 loss: 0.0028 lr: 0.02
+2022-07-22 16:08:27 iteration: 235000 loss: 0.0028 lr: 0.02
+2022-07-22 16:09:47 iteration: 236000 loss: 0.0028 lr: 0.02
+2022-07-22 16:11:07 iteration: 237000 loss: 0.0028 lr: 0.02
+2022-07-22 16:12:27 iteration: 238000 loss: 0.0027 lr: 0.02
+2022-07-22 16:13:47 iteration: 239000 loss: 0.0028 lr: 0.02
+2022-07-22 16:15:08 iteration: 240000 loss: 0.0027 lr: 0.02
+2022-07-22 16:16:28 iteration: 241000 loss: 0.0027 lr: 0.02
+2022-07-22 16:17:48 iteration: 242000 loss: 0.0027 lr: 0.02
+2022-07-22 16:19:08 iteration: 243000 loss: 0.0027 lr: 0.02
+2022-07-22 16:20:28 iteration: 244000 loss: 0.0028 lr: 0.02
+2022-07-22 16:21:49 iteration: 245000 loss: 0.0027 lr: 0.02
+2022-07-22 16:23:10 iteration: 246000 loss: 0.0028 lr: 0.02
+2022-07-22 16:24:31 iteration: 247000 loss: 0.0026 lr: 0.02
+2022-07-22 16:25:51 iteration: 248000 loss: 0.0027 lr: 0.02
+2022-07-22 16:27:12 iteration: 249000 loss: 0.0027 lr: 0.02
+2022-07-22 16:28:31 iteration: 250000 loss: 0.0027 lr: 0.02
+2022-07-22 16:29:53 iteration: 251000 loss: 0.0027 lr: 0.02
+2022-07-22 16:31:13 iteration: 252000 loss: 0.0027 lr: 0.02
+2022-07-22 16:32:34 iteration: 253000 loss: 0.0027 lr: 0.02
+2022-07-22 16:33:53 iteration: 254000 loss: 0.0027 lr: 0.02
+2022-07-22 16:35:13 iteration: 255000 loss: 0.0026 lr: 0.02
+2022-07-22 16:36:33 iteration: 256000 loss: 0.0026 lr: 0.02
+2022-07-22 16:37:53 iteration: 257000 loss: 0.0027 lr: 0.02
+2022-07-22 16:39:14 iteration: 258000 loss: 0.0026 lr: 0.02
+2022-07-22 16:40:35 iteration: 259000 loss: 0.0027 lr: 0.02
+2022-07-22 16:41:54 iteration: 260000 loss: 0.0026 lr: 0.02
+2022-07-22 16:43:15 iteration: 261000 loss: 0.0026 lr: 0.02
+2022-07-22 16:44:36 iteration: 262000 loss: 0.0026 lr: 0.02
+2022-07-22 16:45:55 iteration: 263000 loss: 0.0026 lr: 0.02
+2022-07-22 16:47:17 iteration: 264000 loss: 0.0028 lr: 0.02
+2022-07-22 16:48:38 iteration: 265000 loss: 0.0027 lr: 0.02
+2022-07-22 16:49:58 iteration: 266000 loss: 0.0026 lr: 0.02
+2022-07-22 16:51:19 iteration: 267000 loss: 0.0027 lr: 0.02
+2022-07-22 16:52:39 iteration: 268000 loss: 0.0026 lr: 0.02
+2022-07-22 16:53:58 iteration: 269000 loss: 0.0027 lr: 0.02
+2022-07-22 16:55:17 iteration: 270000 loss: 0.0026 lr: 0.02
+2022-07-22 16:56:38 iteration: 271000 loss: 0.0025 lr: 0.02
+2022-07-22 16:57:58 iteration: 272000 loss: 0.0026 lr: 0.02
+2022-07-22 16:59:18 iteration: 273000 loss: 0.0027 lr: 0.02
+2022-07-22 17:00:38 iteration: 274000 loss: 0.0025 lr: 0.02
+2022-07-22 17:01:58 iteration: 275000 loss: 0.0026 lr: 0.02
+2022-07-22 17:03:18 iteration: 276000 loss: 0.0026 lr: 0.02
+2022-07-22 17:04:38 iteration: 277000 loss: 0.0025 lr: 0.02
+2022-07-22 17:05:59 iteration: 278000 loss: 0.0025 lr: 0.02
+2022-07-22 17:07:20 iteration: 279000 loss: 0.0026 lr: 0.02
+2022-07-22 17:08:41 iteration: 280000 loss: 0.0026 lr: 0.02
+2022-07-22 17:10:01 iteration: 281000 loss: 0.0026 lr: 0.02
+2022-07-22 17:11:21 iteration: 282000 loss: 0.0025 lr: 0.02
+2022-07-22 17:12:41 iteration: 283000 loss: 0.0025 lr: 0.02
+2022-07-22 17:14:01 iteration: 284000 loss: 0.0026 lr: 0.02
+2022-07-22 17:15:21 iteration: 285000 loss: 0.0025 lr: 0.02
+2022-07-22 17:16:41 iteration: 286000 loss: 0.0025 lr: 0.02
+2022-07-22 17:18:02 iteration: 287000 loss: 0.0025 lr: 0.02
+2022-07-22 17:19:22 iteration: 288000 loss: 0.0025 lr: 0.02
+2022-07-22 17:20:42 iteration: 289000 loss: 0.0025 lr: 0.02
+2022-07-22 17:22:03 iteration: 290000 loss: 0.0025 lr: 0.02
+2022-07-22 17:23:23 iteration: 291000 loss: 0.0025 lr: 0.02
+2022-07-22 17:24:43 iteration: 292000 loss: 0.0025 lr: 0.02
+2022-07-22 17:26:03 iteration: 293000 loss: 0.0025 lr: 0.02
+2022-07-22 17:27:25 iteration: 294000 loss: 0.0025 lr: 0.02
+2022-07-22 17:28:46 iteration: 295000 loss: 0.0024 lr: 0.02
+2022-07-22 17:30:06 iteration: 296000 loss: 0.0026 lr: 0.02
+2022-07-22 17:31:26 iteration: 297000 loss: 0.0024 lr: 0.02
+2022-07-22 17:32:47 iteration: 298000 loss: 0.0025 lr: 0.02
+2022-07-22 17:34:08 iteration: 299000 loss: 0.0025 lr: 0.02
+2022-07-22 17:35:29 iteration: 300000 loss: 0.0025 lr: 0.02
+2022-07-22 17:36:52 iteration: 301000 loss: 0.0025 lr: 0.02
+2022-07-22 17:38:11 iteration: 302000 loss: 0.0024 lr: 0.02
+2022-07-22 17:39:31 iteration: 303000 loss: 0.0025 lr: 0.02
+2022-07-22 17:40:51 iteration: 304000 loss: 0.0025 lr: 0.02
+2022-07-22 17:42:10 iteration: 305000 loss: 0.0024 lr: 0.02
+2022-07-22 17:43:30 iteration: 306000 loss: 0.0025 lr: 0.02
+2022-07-22 17:44:50 iteration: 307000 loss: 0.0024 lr: 0.02
+2022-07-22 17:46:11 iteration: 308000 loss: 0.0025 lr: 0.02
+2022-07-22 17:47:31 iteration: 309000 loss: 0.0025 lr: 0.02
+2022-07-22 17:48:51 iteration: 310000 loss: 0.0024 lr: 0.02
+2022-07-22 17:50:11 iteration: 311000 loss: 0.0025 lr: 0.02
+2022-07-22 17:51:31 iteration: 312000 loss: 0.0025 lr: 0.02
+2022-07-22 17:52:51 iteration: 313000 loss: 0.0024 lr: 0.02
+2022-07-22 17:54:10 iteration: 314000 loss: 0.0025 lr: 0.02
+2022-07-22 17:55:31 iteration: 315000 loss: 0.0025 lr: 0.02
+2022-07-22 17:56:52 iteration: 316000 loss: 0.0026 lr: 0.02
+2022-07-22 17:58:11 iteration: 317000 loss: 0.0024 lr: 0.02
+2022-07-22 17:59:32 iteration: 318000 loss: 0.0025 lr: 0.02
+2022-07-22 18:00:52 iteration: 319000 loss: 0.0024 lr: 0.02
+2022-07-22 18:02:12 iteration: 320000 loss: 0.0024 lr: 0.02
+2022-07-22 18:03:33 iteration: 321000 loss: 0.0024 lr: 0.02
+2022-07-22 18:04:53 iteration: 322000 loss: 0.0024 lr: 0.02
+2022-07-22 18:06:13 iteration: 323000 loss: 0.0024 lr: 0.02
+2022-07-22 18:07:33 iteration: 324000 loss: 0.0024 lr: 0.02
+2022-07-22 18:08:54 iteration: 325000 loss: 0.0025 lr: 0.02
+2022-07-22 18:10:14 iteration: 326000 loss: 0.0025 lr: 0.02
+2022-07-22 18:11:34 iteration: 327000 loss: 0.0025 lr: 0.02
+2022-07-22 18:12:54 iteration: 328000 loss: 0.0024 lr: 0.02
+2022-07-22 18:14:14 iteration: 329000 loss: 0.0024 lr: 0.02
+2022-07-22 18:15:34 iteration: 330000 loss: 0.0024 lr: 0.02
+2022-07-22 18:16:55 iteration: 331000 loss: 0.0024 lr: 0.02
+2022-07-22 18:18:15 iteration: 332000 loss: 0.0024 lr: 0.02
+2022-07-22 18:19:35 iteration: 333000 loss: 0.0024 lr: 0.02
+2022-07-22 18:20:56 iteration: 334000 loss: 0.0024 lr: 0.02
+2022-07-22 18:22:16 iteration: 335000 loss: 0.0024 lr: 0.02
+2022-07-22 18:23:36 iteration: 336000 loss: 0.0023 lr: 0.02
+2022-07-22 18:24:56 iteration: 337000 loss: 0.0024 lr: 0.02
+2022-07-22 18:26:16 iteration: 338000 loss: 0.0024 lr: 0.02
+2022-07-22 18:27:36 iteration: 339000 loss: 0.0025 lr: 0.02
+2022-07-22 18:28:57 iteration: 340000 loss: 0.0023 lr: 0.02
+2022-07-22 18:30:16 iteration: 341000 loss: 0.0023 lr: 0.02
+2022-07-22 18:31:37 iteration: 342000 loss: 0.0024 lr: 0.02
+2022-07-22 18:32:58 iteration: 343000 loss: 0.0024 lr: 0.02
+2022-07-22 18:34:18 iteration: 344000 loss: 0.0024 lr: 0.02
+2022-07-22 18:35:38 iteration: 345000 loss: 0.0023 lr: 0.02
+2022-07-22 18:36:57 iteration: 346000 loss: 0.0023 lr: 0.02
+2022-07-22 18:38:16 iteration: 347000 loss: 0.0024 lr: 0.02
+2022-07-22 18:39:37 iteration: 348000 loss: 0.0024 lr: 0.02
+2022-07-22 18:40:58 iteration: 349000 loss: 0.0023 lr: 0.02
+2022-07-22 18:42:18 iteration: 350000 loss: 0.0023 lr: 0.02
+2022-07-22 18:43:40 iteration: 351000 loss: 0.0024 lr: 0.02
+2022-07-22 18:45:01 iteration: 352000 loss: 0.0024 lr: 0.02
+2022-07-22 18:46:21 iteration: 353000 loss: 0.0023 lr: 0.02
+2022-07-22 18:47:41 iteration: 354000 loss: 0.0023 lr: 0.02
+2022-07-22 18:49:02 iteration: 355000 loss: 0.0024 lr: 0.02
+2022-07-22 18:50:21 iteration: 356000 loss: 0.0024 lr: 0.02
+2022-07-22 18:51:41 iteration: 357000 loss: 0.0024 lr: 0.02
+2022-07-22 18:53:00 iteration: 358000 loss: 0.0023 lr: 0.02
+2022-07-22 18:54:21 iteration: 359000 loss: 0.0023 lr: 0.02
+2022-07-22 18:55:40 iteration: 360000 loss: 0.0023 lr: 0.02
+2022-07-22 18:57:01 iteration: 361000 loss: 0.0023 lr: 0.02
+2022-07-22 18:58:21 iteration: 362000 loss: 0.0023 lr: 0.02
+2022-07-22 18:59:40 iteration: 363000 loss: 0.0023 lr: 0.02
+2022-07-22 19:01:00 iteration: 364000 loss: 0.0023 lr: 0.02
+2022-07-22 19:02:20 iteration: 365000 loss: 0.0023 lr: 0.02
+2022-07-22 19:03:39 iteration: 366000 loss: 0.0024 lr: 0.02
+2022-07-22 19:05:00 iteration: 367000 loss: 0.0024 lr: 0.02
+2022-07-22 19:06:20 iteration: 368000 loss: 0.0023 lr: 0.02
+2022-07-22 19:07:40 iteration: 369000 loss: 0.0023 lr: 0.02
+2022-07-22 19:09:00 iteration: 370000 loss: 0.0023 lr: 0.02
+2022-07-22 19:10:20 iteration: 371000 loss: 0.0023 lr: 0.02
+2022-07-22 19:11:41 iteration: 372000 loss: 0.0023 lr: 0.02
+2022-07-22 19:13:01 iteration: 373000 loss: 0.0023 lr: 0.02
+2022-07-22 19:14:22 iteration: 374000 loss: 0.0023 lr: 0.02
+2022-07-22 19:15:41 iteration: 375000 loss: 0.0023 lr: 0.02
+2022-07-22 19:17:01 iteration: 376000 loss: 0.0023 lr: 0.02
+2022-07-22 19:18:20 iteration: 377000 loss: 0.0023 lr: 0.02
+2022-07-22 19:19:40 iteration: 378000 loss: 0.0023 lr: 0.02
+2022-07-22 19:21:01 iteration: 379000 loss: 0.0024 lr: 0.02
+2022-07-22 19:22:22 iteration: 380000 loss: 0.0023 lr: 0.02
+2022-07-22 19:23:41 iteration: 381000 loss: 0.0023 lr: 0.02
+2022-07-22 19:25:02 iteration: 382000 loss: 0.0023 lr: 0.02
+2022-07-22 19:26:22 iteration: 383000 loss: 0.0023 lr: 0.02
+2022-07-22 19:27:42 iteration: 384000 loss: 0.0023 lr: 0.02
+2022-07-22 19:29:02 iteration: 385000 loss: 0.0022 lr: 0.02
+2022-07-22 19:30:23 iteration: 386000 loss: 0.0023 lr: 0.02
+2022-07-22 19:31:44 iteration: 387000 loss: 0.0022 lr: 0.02
+2022-07-22 19:33:04 iteration: 388000 loss: 0.0023 lr: 0.02
+2022-07-22 19:34:25 iteration: 389000 loss: 0.0023 lr: 0.02
+2022-07-22 19:35:46 iteration: 390000 loss: 0.0022 lr: 0.02
+2022-07-22 19:37:06 iteration: 391000 loss: 0.0022 lr: 0.02
+2022-07-22 19:38:26 iteration: 392000 loss: 0.0023 lr: 0.02
+2022-07-22 19:39:46 iteration: 393000 loss: 0.0023 lr: 0.02
+2022-07-22 19:41:07 iteration: 394000 loss: 0.0023 lr: 0.02
+2022-07-22 19:42:26 iteration: 395000 loss: 0.0022 lr: 0.02
+2022-07-22 19:43:45 iteration: 396000 loss: 0.0023 lr: 0.02
+2022-07-22 19:45:05 iteration: 397000 loss: 0.0023 lr: 0.02
+2022-07-22 19:46:25 iteration: 398000 loss: 0.0023 lr: 0.02
+2022-07-22 19:47:45 iteration: 399000 loss: 0.0022 lr: 0.02
+2022-07-22 19:49:05 iteration: 400000 loss: 0.0022 lr: 0.02
+2022-07-22 19:50:27 iteration: 401000 loss: 0.0022 lr: 0.02
+2022-07-22 19:51:46 iteration: 402000 loss: 0.0022 lr: 0.02
+2022-07-22 19:53:05 iteration: 403000 loss: 0.0022 lr: 0.02
+2022-07-22 19:54:26 iteration: 404000 loss: 0.0022 lr: 0.02
+2022-07-22 19:55:46 iteration: 405000 loss: 0.0022 lr: 0.02
+2022-07-22 19:57:05 iteration: 406000 loss: 0.0023 lr: 0.02
+2022-07-22 19:58:24 iteration: 407000 loss: 0.0022 lr: 0.02
+2022-07-22 19:59:45 iteration: 408000 loss: 0.0022 lr: 0.02
+2022-07-22 20:01:06 iteration: 409000 loss: 0.0022 lr: 0.02
+2022-07-22 20:02:26 iteration: 410000 loss: 0.0022 lr: 0.02
+2022-07-22 20:03:45 iteration: 411000 loss: 0.0023 lr: 0.02
+2022-07-22 20:05:06 iteration: 412000 loss: 0.0022 lr: 0.02
+2022-07-22 20:06:27 iteration: 413000 loss: 0.0023 lr: 0.02
+2022-07-22 20:07:47 iteration: 414000 loss: 0.0022 lr: 0.02
+2022-07-22 20:09:07 iteration: 415000 loss: 0.0022 lr: 0.02
+2022-07-22 20:10:27 iteration: 416000 loss: 0.0022 lr: 0.02
+2022-07-22 20:11:47 iteration: 417000 loss: 0.0022 lr: 0.02
+2022-07-22 20:13:07 iteration: 418000 loss: 0.0022 lr: 0.02
+2022-07-22 20:14:27 iteration: 419000 loss: 0.0023 lr: 0.02
+2022-07-22 20:15:47 iteration: 420000 loss: 0.0022 lr: 0.02
+2022-07-22 20:17:07 iteration: 421000 loss: 0.0022 lr: 0.02
+2022-07-22 20:18:28 iteration: 422000 loss: 0.0022 lr: 0.02
+2022-07-22 20:19:49 iteration: 423000 loss: 0.0022 lr: 0.02
+2022-07-22 20:21:10 iteration: 424000 loss: 0.0022 lr: 0.02
+2022-07-22 20:22:30 iteration: 425000 loss: 0.0022 lr: 0.02
+2022-07-22 20:23:50 iteration: 426000 loss: 0.0022 lr: 0.02
+2022-07-22 20:25:11 iteration: 427000 loss: 0.0022 lr: 0.02
+2022-07-22 20:26:31 iteration: 428000 loss: 0.0022 lr: 0.02
+2022-07-22 20:27:52 iteration: 429000 loss: 0.0023 lr: 0.02
+2022-07-22 20:29:12 iteration: 430000 loss: 0.0022 lr: 0.02
+2022-07-22 20:30:34 iteration: 431000 loss: 0.0020 lr: 0.002
+2022-07-22 20:31:56 iteration: 432000 loss: 0.0020 lr: 0.002
+2022-07-22 20:33:15 iteration: 433000 loss: 0.0019 lr: 0.002
+2022-07-22 20:34:36 iteration: 434000 loss: 0.0019 lr: 0.002
+2022-07-22 20:35:55 iteration: 435000 loss: 0.0019 lr: 0.002
+2022-07-22 20:37:15 iteration: 436000 loss: 0.0019 lr: 0.002
+2022-07-22 20:38:36 iteration: 437000 loss: 0.0019 lr: 0.002
+2022-07-22 20:39:56 iteration: 438000 loss: 0.0020 lr: 0.002
+2022-07-22 20:41:16 iteration: 439000 loss: 0.0019 lr: 0.002
+2022-07-22 20:42:36 iteration: 440000 loss: 0.0018 lr: 0.002
+2022-07-22 20:43:56 iteration: 441000 loss: 0.0019 lr: 0.002
+2022-07-22 20:45:15 iteration: 442000 loss: 0.0019 lr: 0.002
+2022-07-22 20:46:36 iteration: 443000 loss: 0.0019 lr: 0.002
+2022-07-22 20:47:56 iteration: 444000 loss: 0.0019 lr: 0.002
+2022-07-22 20:49:16 iteration: 445000 loss: 0.0019 lr: 0.002
+2022-07-22 20:50:38 iteration: 446000 loss: 0.0019 lr: 0.002
+2022-07-22 20:51:58 iteration: 447000 loss: 0.0019 lr: 0.002
+2022-07-22 20:53:19 iteration: 448000 loss: 0.0018 lr: 0.002
+2022-07-22 20:54:40 iteration: 449000 loss: 0.0019 lr: 0.002
+2022-07-22 20:56:01 iteration: 450000 loss: 0.0018 lr: 0.002
+2022-07-22 20:57:23 iteration: 451000 loss: 0.0019 lr: 0.002
+2022-07-22 20:58:43 iteration: 452000 loss: 0.0019 lr: 0.002
+2022-07-22 21:00:03 iteration: 453000 loss: 0.0018 lr: 0.002
+2022-07-22 21:01:22 iteration: 454000 loss: 0.0018 lr: 0.002
+2022-07-22 21:02:43 iteration: 455000 loss: 0.0018 lr: 0.002
+2022-07-22 21:04:02 iteration: 456000 loss: 0.0018 lr: 0.002
+2022-07-22 21:05:23 iteration: 457000 loss: 0.0018 lr: 0.002
+2022-07-22 21:06:43 iteration: 458000 loss: 0.0018 lr: 0.002
+2022-07-22 21:08:02 iteration: 459000 loss: 0.0018 lr: 0.002
+2022-07-22 21:09:22 iteration: 460000 loss: 0.0018 lr: 0.002
+2022-07-22 21:10:42 iteration: 461000 loss: 0.0018 lr: 0.002
+2022-07-22 21:12:02 iteration: 462000 loss: 0.0018 lr: 0.002
+2022-07-22 21:13:22 iteration: 463000 loss: 0.0017 lr: 0.002
+2022-07-22 21:14:42 iteration: 464000 loss: 0.0019 lr: 0.002
+2022-07-22 21:16:02 iteration: 465000 loss: 0.0018 lr: 0.002
+2022-07-22 21:17:22 iteration: 466000 loss: 0.0018 lr: 0.002
+2022-07-22 21:18:42 iteration: 467000 loss: 0.0018 lr: 0.002
+2022-07-22 21:20:03 iteration: 468000 loss: 0.0018 lr: 0.002
+2022-07-22 21:21:23 iteration: 469000 loss: 0.0018 lr: 0.002
+2022-07-22 21:22:43 iteration: 470000 loss: 0.0018 lr: 0.002
+2022-07-22 21:24:04 iteration: 471000 loss: 0.0018 lr: 0.002
+2022-07-22 21:25:25 iteration: 472000 loss: 0.0019 lr: 0.002
+2022-07-22 21:26:46 iteration: 473000 loss: 0.0018 lr: 0.002
+2022-07-22 21:28:06 iteration: 474000 loss: 0.0019 lr: 0.002
+2022-07-22 21:29:25 iteration: 475000 loss: 0.0018 lr: 0.002
+2022-07-22 21:30:46 iteration: 476000 loss: 0.0018 lr: 0.002
+2022-07-22 21:32:06 iteration: 477000 loss: 0.0018 lr: 0.002
+2022-07-22 21:33:26 iteration: 478000 loss: 0.0018 lr: 0.002
+2022-07-22 21:34:47 iteration: 479000 loss: 0.0018 lr: 0.002
+2022-07-22 21:36:07 iteration: 480000 loss: 0.0018 lr: 0.002
+2022-07-22 21:37:27 iteration: 481000 loss: 0.0018 lr: 0.002
+2022-07-22 21:38:48 iteration: 482000 loss: 0.0018 lr: 0.002
+2022-07-22 21:40:08 iteration: 483000 loss: 0.0018 lr: 0.002
+2022-07-22 21:41:28 iteration: 484000 loss: 0.0019 lr: 0.002
+2022-07-22 21:42:49 iteration: 485000 loss: 0.0018 lr: 0.002
+2022-07-22 21:44:09 iteration: 486000 loss: 0.0018 lr: 0.002
+2022-07-22 21:45:29 iteration: 487000 loss: 0.0018 lr: 0.002
+2022-07-22 21:46:49 iteration: 488000 loss: 0.0018 lr: 0.002
+2022-07-22 21:48:10 iteration: 489000 loss: 0.0018 lr: 0.002
+2022-07-22 21:49:30 iteration: 490000 loss: 0.0018 lr: 0.002
+2022-07-22 21:50:51 iteration: 491000 loss: 0.0018 lr: 0.002
+2022-07-22 21:52:11 iteration: 492000 loss: 0.0018 lr: 0.002
+2022-07-22 21:53:31 iteration: 493000 loss: 0.0018 lr: 0.002
+2022-07-22 21:54:51 iteration: 494000 loss: 0.0018 lr: 0.002
+2022-07-22 21:56:12 iteration: 495000 loss: 0.0018 lr: 0.002
+2022-07-22 21:57:33 iteration: 496000 loss: 0.0018 lr: 0.002
+2022-07-22 21:58:54 iteration: 497000 loss: 0.0018 lr: 0.002
+2022-07-22 22:00:14 iteration: 498000 loss: 0.0018 lr: 0.002
+2022-07-22 22:01:34 iteration: 499000 loss: 0.0017 lr: 0.002
+2022-07-22 22:02:54 iteration: 500000 loss: 0.0018 lr: 0.002
+2022-07-22 22:04:17 iteration: 501000 loss: 0.0018 lr: 0.002
+2022-07-22 22:05:37 iteration: 502000 loss: 0.0017 lr: 0.002
+2022-07-22 22:06:58 iteration: 503000 loss: 0.0018 lr: 0.002
+2022-07-22 22:08:19 iteration: 504000 loss: 0.0017 lr: 0.002
+2022-07-22 22:09:39 iteration: 505000 loss: 0.0018 lr: 0.002
+2022-07-22 22:10:59 iteration: 506000 loss: 0.0018 lr: 0.002
+2022-07-22 22:12:20 iteration: 507000 loss: 0.0018 lr: 0.002
+2022-07-22 22:13:41 iteration: 508000 loss: 0.0017 lr: 0.002
+2022-07-22 22:15:01 iteration: 509000 loss: 0.0018 lr: 0.002
+2022-07-22 22:16:20 iteration: 510000 loss: 0.0017 lr: 0.002
+2022-07-22 22:17:39 iteration: 511000 loss: 0.0018 lr: 0.002
+2022-07-22 22:19:00 iteration: 512000 loss: 0.0018 lr: 0.002
+2022-07-22 22:20:20 iteration: 513000 loss: 0.0018 lr: 0.002
+2022-07-22 22:21:40 iteration: 514000 loss: 0.0018 lr: 0.002
+2022-07-22 22:23:01 iteration: 515000 loss: 0.0018 lr: 0.002
+2022-07-22 22:24:20 iteration: 516000 loss: 0.0018 lr: 0.002
+2022-07-22 22:25:41 iteration: 517000 loss: 0.0018 lr: 0.002
+2022-07-22 22:27:00 iteration: 518000 loss: 0.0018 lr: 0.002
+2022-07-22 22:28:20 iteration: 519000 loss: 0.0017 lr: 0.002
+2022-07-22 22:29:40 iteration: 520000 loss: 0.0018 lr: 0.002
+2022-07-22 22:31:00 iteration: 521000 loss: 0.0018 lr: 0.002
+2022-07-22 22:32:21 iteration: 522000 loss: 0.0018 lr: 0.002
+2022-07-22 22:33:41 iteration: 523000 loss: 0.0017 lr: 0.002
+2022-07-22 22:35:01 iteration: 524000 loss: 0.0018 lr: 0.002
+2022-07-22 22:36:20 iteration: 525000 loss: 0.0018 lr: 0.002
+2022-07-22 22:37:39 iteration: 526000 loss: 0.0018 lr: 0.002
+2022-07-22 22:38:59 iteration: 527000 loss: 0.0018 lr: 0.002
+2022-07-22 22:40:19 iteration: 528000 loss: 0.0018 lr: 0.002
+2022-07-22 22:41:38 iteration: 529000 loss: 0.0017 lr: 0.002
+2022-07-22 22:42:59 iteration: 530000 loss: 0.0017 lr: 0.002
+2022-07-22 22:44:19 iteration: 531000 loss: 0.0017 lr: 0.002
+2022-07-22 22:45:39 iteration: 532000 loss: 0.0018 lr: 0.002
+2022-07-22 22:46:59 iteration: 533000 loss: 0.0018 lr: 0.002
+2022-07-22 22:48:19 iteration: 534000 loss: 0.0018 lr: 0.002
+2022-07-22 22:49:40 iteration: 535000 loss: 0.0018 lr: 0.002
+2022-07-22 22:50:59 iteration: 536000 loss: 0.0018 lr: 0.002
+2022-07-22 22:52:20 iteration: 537000 loss: 0.0017 lr: 0.002
+2022-07-22 22:53:40 iteration: 538000 loss: 0.0018 lr: 0.002
+2022-07-22 22:55:01 iteration: 539000 loss: 0.0018 lr: 0.002
+2022-07-22 22:56:21 iteration: 540000 loss: 0.0017 lr: 0.002
+2022-07-22 22:57:41 iteration: 541000 loss: 0.0018 lr: 0.002
+2022-07-22 22:59:02 iteration: 542000 loss: 0.0017 lr: 0.002
+2022-07-22 23:00:21 iteration: 543000 loss: 0.0018 lr: 0.002
+2022-07-22 23:01:41 iteration: 544000 loss: 0.0018 lr: 0.002
+2022-07-22 23:03:01 iteration: 545000 loss: 0.0018 lr: 0.002
+2022-07-22 23:04:21 iteration: 546000 loss: 0.0017 lr: 0.002
+2022-07-22 23:05:41 iteration: 547000 loss: 0.0017 lr: 0.002
+2022-07-22 23:07:01 iteration: 548000 loss: 0.0017 lr: 0.002
+2022-07-22 23:08:22 iteration: 549000 loss: 0.0017 lr: 0.002
+2022-07-22 23:09:41 iteration: 550000 loss: 0.0017 lr: 0.002
+2022-07-22 23:11:04 iteration: 551000 loss: 0.0018 lr: 0.002
+2022-07-22 23:12:25 iteration: 552000 loss: 0.0018 lr: 0.002
+2022-07-22 23:13:47 iteration: 553000 loss: 0.0018 lr: 0.002
+2022-07-22 23:15:07 iteration: 554000 loss: 0.0018 lr: 0.002
+2022-07-22 23:16:26 iteration: 555000 loss: 0.0018 lr: 0.002
+2022-07-22 23:17:46 iteration: 556000 loss: 0.0018 lr: 0.002
+2022-07-22 23:19:06 iteration: 557000 loss: 0.0017 lr: 0.002
+2022-07-22 23:20:27 iteration: 558000 loss: 0.0018 lr: 0.002
+2022-07-22 23:21:48 iteration: 559000 loss: 0.0017 lr: 0.002
+2022-07-22 23:23:08 iteration: 560000 loss: 0.0018 lr: 0.002
+2022-07-22 23:24:29 iteration: 561000 loss: 0.0017 lr: 0.002
+2022-07-22 23:25:49 iteration: 562000 loss: 0.0017 lr: 0.002
+2022-07-22 23:27:09 iteration: 563000 loss: 0.0017 lr: 0.002
+2022-07-22 23:28:28 iteration: 564000 loss: 0.0017 lr: 0.002
+2022-07-22 23:29:49 iteration: 565000 loss: 0.0017 lr: 0.002
+2022-07-22 23:31:09 iteration: 566000 loss: 0.0017 lr: 0.002
+2022-07-22 23:32:30 iteration: 567000 loss: 0.0017 lr: 0.002
+2022-07-22 23:33:49 iteration: 568000 loss: 0.0017 lr: 0.002
+2022-07-22 23:35:09 iteration: 569000 loss: 0.0018 lr: 0.002
+2022-07-22 23:36:29 iteration: 570000 loss: 0.0018 lr: 0.002
+2022-07-22 23:37:50 iteration: 571000 loss: 0.0017 lr: 0.002
+2022-07-22 23:39:10 iteration: 572000 loss: 0.0017 lr: 0.002
+2022-07-22 23:40:30 iteration: 573000 loss: 0.0017 lr: 0.002
+2022-07-22 23:41:50 iteration: 574000 loss: 0.0017 lr: 0.002
+2022-07-22 23:43:11 iteration: 575000 loss: 0.0017 lr: 0.002
+2022-07-22 23:44:31 iteration: 576000 loss: 0.0017 lr: 0.002
+2022-07-22 23:45:51 iteration: 577000 loss: 0.0017 lr: 0.002
+2022-07-22 23:47:11 iteration: 578000 loss: 0.0017 lr: 0.002
+2022-07-22 23:48:31 iteration: 579000 loss: 0.0017 lr: 0.002
+2022-07-22 23:49:50 iteration: 580000 loss: 0.0017 lr: 0.002
+2022-07-22 23:51:10 iteration: 581000 loss: 0.0017 lr: 0.002
+2022-07-22 23:52:31 iteration: 582000 loss: 0.0017 lr: 0.002
+2022-07-22 23:53:52 iteration: 583000 loss: 0.0018 lr: 0.002
+2022-07-22 23:55:12 iteration: 584000 loss: 0.0018 lr: 0.002
+2022-07-22 23:56:32 iteration: 585000 loss: 0.0017 lr: 0.002
+2022-07-22 23:57:52 iteration: 586000 loss: 0.0017 lr: 0.002
+2022-07-22 23:59:12 iteration: 587000 loss: 0.0017 lr: 0.002
+2022-07-23 00:00:32 iteration: 588000 loss: 0.0017 lr: 0.002
+2022-07-23 00:01:52 iteration: 589000 loss: 0.0017 lr: 0.002
+2022-07-23 00:03:11 iteration: 590000 loss: 0.0018 lr: 0.002
+2022-07-23 00:04:31 iteration: 591000 loss: 0.0018 lr: 0.002
+2022-07-23 00:05:51 iteration: 592000 loss: 0.0017 lr: 0.002
+2022-07-23 00:07:12 iteration: 593000 loss: 0.0017 lr: 0.002
+2022-07-23 00:08:32 iteration: 594000 loss: 0.0018 lr: 0.002
+2022-07-23 00:09:53 iteration: 595000 loss: 0.0017 lr: 0.002
+2022-07-23 00:11:13 iteration: 596000 loss: 0.0018 lr: 0.002
+2022-07-23 00:12:33 iteration: 597000 loss: 0.0017 lr: 0.002
+2022-07-23 00:13:54 iteration: 598000 loss: 0.0017 lr: 0.002
+2022-07-23 00:15:13 iteration: 599000 loss: 0.0018 lr: 0.002
+2022-07-23 00:16:34 iteration: 600000 loss: 0.0018 lr: 0.002
+2022-07-23 00:17:56 iteration: 601000 loss: 0.0017 lr: 0.002
+2022-07-23 00:19:17 iteration: 602000 loss: 0.0017 lr: 0.002
+2022-07-23 00:20:36 iteration: 603000 loss: 0.0017 lr: 0.002
+2022-07-23 00:21:57 iteration: 604000 loss: 0.0017 lr: 0.002
+2022-07-23 00:23:18 iteration: 605000 loss: 0.0017 lr: 0.002
+2022-07-23 00:24:40 iteration: 606000 loss: 0.0018 lr: 0.002
+2022-07-23 00:26:02 iteration: 607000 loss: 0.0018 lr: 0.002
+2022-07-23 00:27:22 iteration: 608000 loss: 0.0018 lr: 0.002
+2022-07-23 00:28:42 iteration: 609000 loss: 0.0017 lr: 0.002
+2022-07-23 00:30:03 iteration: 610000 loss: 0.0017 lr: 0.002
+2022-07-23 00:31:23 iteration: 611000 loss: 0.0017 lr: 0.002
+2022-07-23 00:32:44 iteration: 612000 loss: 0.0018 lr: 0.002
+2022-07-23 00:34:03 iteration: 613000 loss: 0.0017 lr: 0.002
+2022-07-23 00:35:25 iteration: 614000 loss: 0.0017 lr: 0.002
+2022-07-23 00:36:45 iteration: 615000 loss: 0.0018 lr: 0.002
+2022-07-23 00:38:05 iteration: 616000 loss: 0.0017 lr: 0.002
+2022-07-23 00:39:26 iteration: 617000 loss: 0.0017 lr: 0.002
+2022-07-23 00:40:48 iteration: 618000 loss: 0.0017 lr: 0.002
+2022-07-23 00:42:07 iteration: 619000 loss: 0.0017 lr: 0.002
+2022-07-23 00:43:27 iteration: 620000 loss: 0.0017 lr: 0.002
+2022-07-23 00:44:47 iteration: 621000 loss: 0.0017 lr: 0.002
+2022-07-23 00:46:08 iteration: 622000 loss: 0.0017 lr: 0.002
+2022-07-23 00:47:28 iteration: 623000 loss: 0.0017 lr: 0.002
+2022-07-23 00:48:48 iteration: 624000 loss: 0.0017 lr: 0.002
+2022-07-23 00:50:09 iteration: 625000 loss: 0.0017 lr: 0.002
+2022-07-23 00:51:29 iteration: 626000 loss: 0.0017 lr: 0.002
+2022-07-23 00:52:49 iteration: 627000 loss: 0.0017 lr: 0.002
+2022-07-23 00:54:08 iteration: 628000 loss: 0.0017 lr: 0.002
+2022-07-23 00:55:29 iteration: 629000 loss: 0.0018 lr: 0.002
+2022-07-23 00:56:49 iteration: 630000 loss: 0.0017 lr: 0.002
+2022-07-23 00:58:07 iteration: 631000 loss: 0.0017 lr: 0.002
+2022-07-23 00:59:28 iteration: 632000 loss: 0.0017 lr: 0.002
+2022-07-23 01:00:48 iteration: 633000 loss: 0.0017 lr: 0.002
+2022-07-23 01:02:09 iteration: 634000 loss: 0.0017 lr: 0.002
+2022-07-23 01:03:28 iteration: 635000 loss: 0.0017 lr: 0.002
+2022-07-23 01:04:49 iteration: 636000 loss: 0.0017 lr: 0.002
+2022-07-23 01:06:09 iteration: 637000 loss: 0.0017 lr: 0.002
+2022-07-23 01:07:29 iteration: 638000 loss: 0.0017 lr: 0.002
+2022-07-23 01:08:50 iteration: 639000 loss: 0.0017 lr: 0.002
+2022-07-23 01:10:11 iteration: 640000 loss: 0.0017 lr: 0.002
+2022-07-23 01:11:30 iteration: 641000 loss: 0.0017 lr: 0.002
+2022-07-23 01:12:50 iteration: 642000 loss: 0.0018 lr: 0.002
+2022-07-23 01:14:09 iteration: 643000 loss: 0.0017 lr: 0.002
+2022-07-23 01:15:31 iteration: 644000 loss: 0.0017 lr: 0.002
+2022-07-23 01:16:50 iteration: 645000 loss: 0.0017 lr: 0.002
+2022-07-23 01:18:11 iteration: 646000 loss: 0.0017 lr: 0.002
+2022-07-23 01:19:31 iteration: 647000 loss: 0.0017 lr: 0.002
+2022-07-23 01:20:51 iteration: 648000 loss: 0.0018 lr: 0.002
+2022-07-23 01:22:10 iteration: 649000 loss: 0.0017 lr: 0.002
+2022-07-23 01:23:30 iteration: 650000 loss: 0.0017 lr: 0.002
+2022-07-23 01:24:51 iteration: 651000 loss: 0.0017 lr: 0.002
+2022-07-23 01:26:10 iteration: 652000 loss: 0.0017 lr: 0.002
+2022-07-23 01:27:30 iteration: 653000 loss: 0.0017 lr: 0.002
+2022-07-23 01:28:49 iteration: 654000 loss: 0.0017 lr: 0.002
+2022-07-23 01:30:10 iteration: 655000 loss: 0.0017 lr: 0.002
+2022-07-23 01:31:30 iteration: 656000 loss: 0.0017 lr: 0.002
+2022-07-23 01:32:51 iteration: 657000 loss: 0.0017 lr: 0.002
+2022-07-23 01:34:13 iteration: 658000 loss: 0.0017 lr: 0.002
+2022-07-23 01:35:34 iteration: 659000 loss: 0.0017 lr: 0.002
+2022-07-23 01:36:55 iteration: 660000 loss: 0.0017 lr: 0.002
+2022-07-23 01:38:15 iteration: 661000 loss: 0.0017 lr: 0.002
+2022-07-23 01:39:34 iteration: 662000 loss: 0.0017 lr: 0.002
+2022-07-23 01:40:54 iteration: 663000 loss: 0.0017 lr: 0.002
+2022-07-23 01:42:15 iteration: 664000 loss: 0.0017 lr: 0.002
+2022-07-23 01:43:36 iteration: 665000 loss: 0.0017 lr: 0.002
+2022-07-23 01:44:57 iteration: 666000 loss: 0.0017 lr: 0.002
+2022-07-23 01:46:17 iteration: 667000 loss: 0.0017 lr: 0.002
+2022-07-23 01:47:38 iteration: 668000 loss: 0.0017 lr: 0.002
+2022-07-23 01:48:59 iteration: 669000 loss: 0.0018 lr: 0.002
+2022-07-23 01:50:17 iteration: 670000 loss: 0.0017 lr: 0.002
+2022-07-23 01:51:39 iteration: 671000 loss: 0.0017 lr: 0.002
+2022-07-23 01:53:00 iteration: 672000 loss: 0.0017 lr: 0.002
+2022-07-23 01:54:20 iteration: 673000 loss: 0.0017 lr: 0.002
+2022-07-23 01:55:40 iteration: 674000 loss: 0.0017 lr: 0.002
+2022-07-23 01:57:00 iteration: 675000 loss: 0.0017 lr: 0.002
+2022-07-23 01:58:21 iteration: 676000 loss: 0.0017 lr: 0.002
+2022-07-23 01:59:41 iteration: 677000 loss: 0.0017 lr: 0.002
+2022-07-23 02:01:00 iteration: 678000 loss: 0.0017 lr: 0.002
+2022-07-23 02:02:20 iteration: 679000 loss: 0.0017 lr: 0.002
+2022-07-23 02:03:41 iteration: 680000 loss: 0.0017 lr: 0.002
+2022-07-23 02:05:00 iteration: 681000 loss: 0.0017 lr: 0.002
+2022-07-23 02:06:20 iteration: 682000 loss: 0.0017 lr: 0.002
+2022-07-23 02:07:41 iteration: 683000 loss: 0.0017 lr: 0.002
+2022-07-23 02:09:02 iteration: 684000 loss: 0.0017 lr: 0.002
+2022-07-23 02:10:22 iteration: 685000 loss: 0.0017 lr: 0.002
+2022-07-23 02:11:41 iteration: 686000 loss: 0.0017 lr: 0.002
+2022-07-23 02:13:02 iteration: 687000 loss: 0.0017 lr: 0.002
+2022-07-23 02:14:23 iteration: 688000 loss: 0.0017 lr: 0.002
+2022-07-23 02:15:42 iteration: 689000 loss: 0.0017 lr: 0.002
+2022-07-23 02:17:02 iteration: 690000 loss: 0.0017 lr: 0.002
+2022-07-23 02:18:22 iteration: 691000 loss: 0.0018 lr: 0.002
+2022-07-23 02:19:42 iteration: 692000 loss: 0.0017 lr: 0.002
+2022-07-23 02:21:02 iteration: 693000 loss: 0.0017 lr: 0.002
+2022-07-23 02:22:22 iteration: 694000 loss: 0.0017 lr: 0.002
+2022-07-23 02:23:43 iteration: 695000 loss: 0.0017 lr: 0.002
+2022-07-23 02:25:03 iteration: 696000 loss: 0.0017 lr: 0.002
+2022-07-23 02:26:23 iteration: 697000 loss: 0.0017 lr: 0.002
+2022-07-23 02:27:43 iteration: 698000 loss: 0.0017 lr: 0.002
+2022-07-23 02:29:02 iteration: 699000 loss: 0.0017 lr: 0.002
+2022-07-23 02:30:22 iteration: 700000 loss: 0.0017 lr: 0.002
+2022-07-23 02:31:44 iteration: 701000 loss: 0.0017 lr: 0.002
+2022-07-23 02:33:03 iteration: 702000 loss: 0.0017 lr: 0.002
+2022-07-23 02:34:23 iteration: 703000 loss: 0.0017 lr: 0.002
+2022-07-23 02:35:43 iteration: 704000 loss: 0.0017 lr: 0.002
+2022-07-23 02:37:04 iteration: 705000 loss: 0.0017 lr: 0.002
+2022-07-23 02:38:24 iteration: 706000 loss: 0.0017 lr: 0.002
+2022-07-23 02:39:44 iteration: 707000 loss: 0.0017 lr: 0.002
+2022-07-23 02:41:04 iteration: 708000 loss: 0.0017 lr: 0.002
+2022-07-23 02:42:25 iteration: 709000 loss: 0.0017 lr: 0.002
+2022-07-23 02:43:46 iteration: 710000 loss: 0.0017 lr: 0.002
+2022-07-23 02:45:06 iteration: 711000 loss: 0.0017 lr: 0.002
+2022-07-23 02:46:26 iteration: 712000 loss: 0.0017 lr: 0.002
+2022-07-23 02:47:47 iteration: 713000 loss: 0.0016 lr: 0.002
+2022-07-23 02:49:06 iteration: 714000 loss: 0.0016 lr: 0.002
+2022-07-23 02:50:26 iteration: 715000 loss: 0.0017 lr: 0.002
+2022-07-23 02:51:46 iteration: 716000 loss: 0.0017 lr: 0.002
+2022-07-23 02:53:06 iteration: 717000 loss: 0.0017 lr: 0.002
+2022-07-23 02:54:27 iteration: 718000 loss: 0.0017 lr: 0.002
+2022-07-23 02:55:47 iteration: 719000 loss: 0.0017 lr: 0.002
+2022-07-23 02:57:08 iteration: 720000 loss: 0.0017 lr: 0.002
+2022-07-23 02:58:28 iteration: 721000 loss: 0.0017 lr: 0.002
+2022-07-23 02:59:47 iteration: 722000 loss: 0.0017 lr: 0.002
+2022-07-23 03:01:07 iteration: 723000 loss: 0.0017 lr: 0.002
+2022-07-23 03:02:28 iteration: 724000 loss: 0.0016 lr: 0.002
+2022-07-23 03:03:49 iteration: 725000 loss: 0.0016 lr: 0.002
+2022-07-23 03:05:09 iteration: 726000 loss: 0.0017 lr: 0.002
+2022-07-23 03:06:29 iteration: 727000 loss: 0.0017 lr: 0.002
+2022-07-23 03:07:49 iteration: 728000 loss: 0.0016 lr: 0.002
+2022-07-23 03:09:09 iteration: 729000 loss: 0.0017 lr: 0.002
+2022-07-23 03:10:29 iteration: 730000 loss: 0.0017 lr: 0.002
+2022-07-23 03:11:49 iteration: 731000 loss: 0.0017 lr: 0.001
+2022-07-23 03:13:08 iteration: 732000 loss: 0.0017 lr: 0.001
+2022-07-23 03:14:28 iteration: 733000 loss: 0.0016 lr: 0.001
+2022-07-23 03:15:48 iteration: 734000 loss: 0.0017 lr: 0.001
+2022-07-23 03:17:07 iteration: 735000 loss: 0.0017 lr: 0.001
+2022-07-23 03:18:27 iteration: 736000 loss: 0.0017 lr: 0.001
+2022-07-23 03:19:47 iteration: 737000 loss: 0.0017 lr: 0.001
+2022-07-23 03:21:08 iteration: 738000 loss: 0.0017 lr: 0.001
+2022-07-23 03:22:29 iteration: 739000 loss: 0.0017 lr: 0.001
+2022-07-23 03:23:49 iteration: 740000 loss: 0.0017 lr: 0.001
+2022-07-23 03:25:08 iteration: 741000 loss: 0.0016 lr: 0.001
+2022-07-23 03:26:29 iteration: 742000 loss: 0.0017 lr: 0.001
+2022-07-23 03:27:49 iteration: 743000 loss: 0.0017 lr: 0.001
+2022-07-23 03:29:10 iteration: 744000 loss: 0.0017 lr: 0.001
+2022-07-23 03:30:30 iteration: 745000 loss: 0.0017 lr: 0.001
+2022-07-23 03:31:50 iteration: 746000 loss: 0.0017 lr: 0.001
+2022-07-23 03:33:11 iteration: 747000 loss: 0.0017 lr: 0.001
+2022-07-23 03:34:31 iteration: 748000 loss: 0.0016 lr: 0.001
+2022-07-23 03:35:51 iteration: 749000 loss: 0.0017 lr: 0.001
+2022-07-23 03:37:11 iteration: 750000 loss: 0.0017 lr: 0.001
+2022-07-23 03:38:33 iteration: 751000 loss: 0.0017 lr: 0.001
+2022-07-23 03:39:54 iteration: 752000 loss: 0.0017 lr: 0.001
+2022-07-23 03:41:14 iteration: 753000 loss: 0.0017 lr: 0.001
+2022-07-23 03:42:34 iteration: 754000 loss: 0.0017 lr: 0.001
+2022-07-23 03:43:54 iteration: 755000 loss: 0.0017 lr: 0.001
+2022-07-23 03:45:14 iteration: 756000 loss: 0.0016 lr: 0.001
+2022-07-23 03:46:32 iteration: 757000 loss: 0.0017 lr: 0.001
+2022-07-23 03:47:52 iteration: 758000 loss: 0.0016 lr: 0.001
+2022-07-23 03:49:13 iteration: 759000 loss: 0.0016 lr: 0.001
+2022-07-23 03:50:33 iteration: 760000 loss: 0.0017 lr: 0.001
+2022-07-23 03:51:53 iteration: 761000 loss: 0.0017 lr: 0.001
+2022-07-23 03:53:13 iteration: 762000 loss: 0.0017 lr: 0.001
+2022-07-23 03:54:34 iteration: 763000 loss: 0.0017 lr: 0.001
+2022-07-23 03:55:53 iteration: 764000 loss: 0.0017 lr: 0.001
+2022-07-23 03:57:14 iteration: 765000 loss: 0.0016 lr: 0.001
+2022-07-23 03:58:35 iteration: 766000 loss: 0.0017 lr: 0.001
+2022-07-23 03:59:55 iteration: 767000 loss: 0.0016 lr: 0.001
+2022-07-23 04:01:15 iteration: 768000 loss: 0.0017 lr: 0.001
+2022-07-23 04:02:36 iteration: 769000 loss: 0.0016 lr: 0.001
+2022-07-23 04:03:55 iteration: 770000 loss: 0.0016 lr: 0.001
+2022-07-23 04:05:15 iteration: 771000 loss: 0.0016 lr: 0.001
+2022-07-23 04:06:36 iteration: 772000 loss: 0.0017 lr: 0.001
+2022-07-23 04:07:56 iteration: 773000 loss: 0.0017 lr: 0.001
+2022-07-23 04:09:15 iteration: 774000 loss: 0.0017 lr: 0.001
+2022-07-23 04:10:35 iteration: 775000 loss: 0.0017 lr: 0.001
+2022-07-23 04:11:55 iteration: 776000 loss: 0.0017 lr: 0.001
+2022-07-23 04:13:15 iteration: 777000 loss: 0.0017 lr: 0.001
+2022-07-23 04:14:35 iteration: 778000 loss: 0.0017 lr: 0.001
+2022-07-23 04:15:56 iteration: 779000 loss: 0.0017 lr: 0.001
+2022-07-23 04:17:17 iteration: 780000 loss: 0.0017 lr: 0.001
+2022-07-23 04:18:38 iteration: 781000 loss: 0.0017 lr: 0.001
+2022-07-23 04:19:58 iteration: 782000 loss: 0.0017 lr: 0.001
+2022-07-23 04:21:19 iteration: 783000 loss: 0.0016 lr: 0.001
+2022-07-23 04:22:39 iteration: 784000 loss: 0.0017 lr: 0.001
+2022-07-23 04:24:00 iteration: 785000 loss: 0.0017 lr: 0.001
+2022-07-23 04:25:19 iteration: 786000 loss: 0.0017 lr: 0.001
+2022-07-23 04:26:39 iteration: 787000 loss: 0.0017 lr: 0.001
+2022-07-23 04:28:00 iteration: 788000 loss: 0.0017 lr: 0.001
+2022-07-23 04:29:20 iteration: 789000 loss: 0.0017 lr: 0.001
+2022-07-23 04:30:40 iteration: 790000 loss: 0.0016 lr: 0.001
+2022-07-23 04:32:00 iteration: 791000 loss: 0.0017 lr: 0.001
+2022-07-23 04:33:21 iteration: 792000 loss: 0.0017 lr: 0.001
+2022-07-23 04:34:41 iteration: 793000 loss: 0.0017 lr: 0.001
+2022-07-23 04:36:01 iteration: 794000 loss: 0.0017 lr: 0.001
+2022-07-23 04:37:20 iteration: 795000 loss: 0.0017 lr: 0.001
+2022-07-23 04:38:40 iteration: 796000 loss: 0.0017 lr: 0.001
+2022-07-23 04:39:59 iteration: 797000 loss: 0.0017 lr: 0.001
+2022-07-23 04:41:19 iteration: 798000 loss: 0.0017 lr: 0.001
+2022-07-23 04:42:39 iteration: 799000 loss: 0.0017 lr: 0.001
+2022-07-23 04:43:59 iteration: 800000 loss: 0.0017 lr: 0.001
+2022-07-23 04:45:22 iteration: 801000 loss: 0.0017 lr: 0.001
+2022-07-23 04:46:41 iteration: 802000 loss: 0.0017 lr: 0.001
+2022-07-23 04:48:01 iteration: 803000 loss: 0.0017 lr: 0.001
+2022-07-23 04:49:21 iteration: 804000 loss: 0.0016 lr: 0.001
+2022-07-23 04:50:42 iteration: 805000 loss: 0.0016 lr: 0.001
+2022-07-23 04:52:03 iteration: 806000 loss: 0.0017 lr: 0.001
+2022-07-23 04:53:23 iteration: 807000 loss: 0.0017 lr: 0.001
+2022-07-23 04:54:42 iteration: 808000 loss: 0.0017 lr: 0.001
+2022-07-23 04:56:02 iteration: 809000 loss: 0.0017 lr: 0.001
+2022-07-23 04:57:22 iteration: 810000 loss: 0.0016 lr: 0.001
+2022-07-23 04:58:43 iteration: 811000 loss: 0.0016 lr: 0.001
+2022-07-23 05:00:03 iteration: 812000 loss: 0.0017 lr: 0.001
+2022-07-23 05:01:23 iteration: 813000 loss: 0.0017 lr: 0.001
+2022-07-23 05:02:42 iteration: 814000 loss: 0.0016 lr: 0.001
+2022-07-23 05:04:01 iteration: 815000 loss: 0.0017 lr: 0.001
+2022-07-23 05:05:22 iteration: 816000 loss: 0.0017 lr: 0.001
+2022-07-23 05:06:42 iteration: 817000 loss: 0.0016 lr: 0.001
+2022-07-23 05:08:02 iteration: 818000 loss: 0.0017 lr: 0.001
+2022-07-23 05:09:22 iteration: 819000 loss: 0.0017 lr: 0.001
+2022-07-23 05:10:44 iteration: 820000 loss: 0.0017 lr: 0.001
+2022-07-23 05:12:04 iteration: 821000 loss: 0.0017 lr: 0.001
+2022-07-23 05:13:24 iteration: 822000 loss: 0.0017 lr: 0.001
+2022-07-23 05:14:44 iteration: 823000 loss: 0.0017 lr: 0.001
+2022-07-23 05:16:03 iteration: 824000 loss: 0.0017 lr: 0.001
+2022-07-23 05:17:24 iteration: 825000 loss: 0.0017 lr: 0.001
+2022-07-23 05:18:44 iteration: 826000 loss: 0.0017 lr: 0.001
+2022-07-23 05:20:05 iteration: 827000 loss: 0.0017 lr: 0.001
+2022-07-23 05:21:24 iteration: 828000 loss: 0.0017 lr: 0.001
+2022-07-23 05:22:44 iteration: 829000 loss: 0.0016 lr: 0.001
+2022-07-23 05:24:03 iteration: 830000 loss: 0.0016 lr: 0.001
+2022-07-23 05:25:23 iteration: 831000 loss: 0.0017 lr: 0.001
+2022-07-23 05:26:43 iteration: 832000 loss: 0.0017 lr: 0.001
+2022-07-23 05:28:04 iteration: 833000 loss: 0.0016 lr: 0.001
+2022-07-23 05:29:23 iteration: 834000 loss: 0.0016 lr: 0.001
+2022-07-23 05:30:42 iteration: 835000 loss: 0.0016 lr: 0.001
+2022-07-23 05:32:03 iteration: 836000 loss: 0.0016 lr: 0.001
+2022-07-23 05:33:24 iteration: 837000 loss: 0.0017 lr: 0.001
+2022-07-23 05:34:45 iteration: 838000 loss: 0.0017 lr: 0.001
+2022-07-23 05:36:04 iteration: 839000 loss: 0.0017 lr: 0.001
+2022-07-23 05:37:25 iteration: 840000 loss: 0.0017 lr: 0.001
+2022-07-23 05:38:45 iteration: 841000 loss: 0.0017 lr: 0.001
+2022-07-23 05:40:04 iteration: 842000 loss: 0.0016 lr: 0.001
+2022-07-23 05:41:25 iteration: 843000 loss: 0.0017 lr: 0.001
+2022-07-23 05:42:44 iteration: 844000 loss: 0.0017 lr: 0.001
+2022-07-23 05:44:04 iteration: 845000 loss: 0.0016 lr: 0.001
+2022-07-23 05:45:23 iteration: 846000 loss: 0.0017 lr: 0.001
+2022-07-23 05:46:44 iteration: 847000 loss: 0.0016 lr: 0.001
+2022-07-23 05:48:04 iteration: 848000 loss: 0.0017 lr: 0.001
+2022-07-23 05:49:25 iteration: 849000 loss: 0.0017 lr: 0.001
+2022-07-23 05:50:46 iteration: 850000 loss: 0.0017 lr: 0.001
+2022-07-23 05:52:07 iteration: 851000 loss: 0.0017 lr: 0.001
+2022-07-23 05:53:28 iteration: 852000 loss: 0.0016 lr: 0.001
+2022-07-23 05:54:49 iteration: 853000 loss: 0.0017 lr: 0.001
+2022-07-23 05:56:09 iteration: 854000 loss: 0.0016 lr: 0.001
+2022-07-23 05:57:29 iteration: 855000 loss: 0.0017 lr: 0.001
+2022-07-23 05:58:49 iteration: 856000 loss: 0.0016 lr: 0.001
+2022-07-23 06:00:09 iteration: 857000 loss: 0.0017 lr: 0.001
+2022-07-23 06:01:29 iteration: 858000 loss: 0.0017 lr: 0.001
+2022-07-23 06:02:49 iteration: 859000 loss: 0.0016 lr: 0.001
+2022-07-23 06:04:10 iteration: 860000 loss: 0.0017 lr: 0.001
+2022-07-23 06:05:30 iteration: 861000 loss: 0.0017 lr: 0.001
+2022-07-23 06:06:49 iteration: 862000 loss: 0.0016 lr: 0.001
+2022-07-23 06:08:10 iteration: 863000 loss: 0.0017 lr: 0.001
+2022-07-23 06:09:31 iteration: 864000 loss: 0.0016 lr: 0.001
+2022-07-23 06:10:51 iteration: 865000 loss: 0.0017 lr: 0.001
+2022-07-23 06:12:12 iteration: 866000 loss: 0.0017 lr: 0.001
+2022-07-23 06:13:32 iteration: 867000 loss: 0.0017 lr: 0.001
+2022-07-23 06:14:51 iteration: 868000 loss: 0.0017 lr: 0.001
+2022-07-23 06:16:12 iteration: 869000 loss: 0.0016 lr: 0.001
+2022-07-23 06:17:31 iteration: 870000 loss: 0.0017 lr: 0.001
+2022-07-23 06:18:51 iteration: 871000 loss: 0.0017 lr: 0.001
+2022-07-23 06:20:11 iteration: 872000 loss: 0.0016 lr: 0.001
+2022-07-23 06:21:31 iteration: 873000 loss: 0.0017 lr: 0.001
+2022-07-23 06:22:53 iteration: 874000 loss: 0.0016 lr: 0.001
+2022-07-23 06:24:13 iteration: 875000 loss: 0.0016 lr: 0.001
+2022-07-23 06:25:33 iteration: 876000 loss: 0.0016 lr: 0.001
+2022-07-23 06:26:54 iteration: 877000 loss: 0.0016 lr: 0.001
+2022-07-23 06:28:15 iteration: 878000 loss: 0.0017 lr: 0.001
+2022-07-23 06:29:34 iteration: 879000 loss: 0.0017 lr: 0.001
+2022-07-23 06:30:55 iteration: 880000 loss: 0.0017 lr: 0.001
+2022-07-23 06:32:14 iteration: 881000 loss: 0.0016 lr: 0.001
+2022-07-23 06:33:35 iteration: 882000 loss: 0.0016 lr: 0.001
+2022-07-23 06:34:55 iteration: 883000 loss: 0.0017 lr: 0.001
+2022-07-23 06:36:16 iteration: 884000 loss: 0.0016 lr: 0.001
+2022-07-23 06:37:35 iteration: 885000 loss: 0.0017 lr: 0.001
+2022-07-23 06:38:55 iteration: 886000 loss: 0.0017 lr: 0.001
+2022-07-23 06:40:15 iteration: 887000 loss: 0.0016 lr: 0.001
+2022-07-23 06:41:36 iteration: 888000 loss: 0.0017 lr: 0.001
+2022-07-23 06:42:57 iteration: 889000 loss: 0.0016 lr: 0.001
+2022-07-23 06:44:17 iteration: 890000 loss: 0.0017 lr: 0.001
+2022-07-23 06:45:37 iteration: 891000 loss: 0.0016 lr: 0.001
+2022-07-23 06:46:57 iteration: 892000 loss: 0.0017 lr: 0.001
+2022-07-23 06:48:18 iteration: 893000 loss: 0.0017 lr: 0.001
+2022-07-23 06:49:39 iteration: 894000 loss: 0.0016 lr: 0.001
+2022-07-23 06:50:59 iteration: 895000 loss: 0.0016 lr: 0.001
+2022-07-23 06:52:18 iteration: 896000 loss: 0.0017 lr: 0.001
+2022-07-23 06:53:39 iteration: 897000 loss: 0.0017 lr: 0.001
+2022-07-23 06:54:59 iteration: 898000 loss: 0.0017 lr: 0.001
+2022-07-23 06:56:20 iteration: 899000 loss: 0.0017 lr: 0.001
+2022-07-23 06:57:40 iteration: 900000 loss: 0.0017 lr: 0.001
+2022-07-23 06:59:03 iteration: 901000 loss: 0.0016 lr: 0.001
+2022-07-23 07:00:24 iteration: 902000 loss: 0.0016 lr: 0.001
+2022-07-23 07:01:43 iteration: 903000 loss: 0.0017 lr: 0.001
+2022-07-23 07:03:02 iteration: 904000 loss: 0.0016 lr: 0.001
+2022-07-23 07:04:21 iteration: 905000 loss: 0.0017 lr: 0.001
+2022-07-23 07:05:41 iteration: 906000 loss: 0.0017 lr: 0.001
+2022-07-23 07:07:02 iteration: 907000 loss: 0.0017 lr: 0.001
+2022-07-23 07:08:22 iteration: 908000 loss: 0.0017 lr: 0.001
+2022-07-23 07:09:43 iteration: 909000 loss: 0.0017 lr: 0.001
+2022-07-23 07:11:04 iteration: 910000 loss: 0.0016 lr: 0.001
+2022-07-23 07:12:25 iteration: 911000 loss: 0.0016 lr: 0.001
+2022-07-23 07:13:46 iteration: 912000 loss: 0.0016 lr: 0.001
+2022-07-23 07:15:05 iteration: 913000 loss: 0.0017 lr: 0.001
+2022-07-23 07:16:25 iteration: 914000 loss: 0.0017 lr: 0.001
+2022-07-23 07:17:46 iteration: 915000 loss: 0.0016 lr: 0.001
+2022-07-23 07:19:06 iteration: 916000 loss: 0.0017 lr: 0.001
+2022-07-23 07:20:26 iteration: 917000 loss: 0.0017 lr: 0.001
+2022-07-23 07:21:46 iteration: 918000 loss: 0.0016 lr: 0.001
+2022-07-23 07:23:07 iteration: 919000 loss: 0.0017 lr: 0.001
+2022-07-23 07:24:26 iteration: 920000 loss: 0.0017 lr: 0.001
+2022-07-23 07:25:46 iteration: 921000 loss: 0.0016 lr: 0.001
+2022-07-23 07:27:07 iteration: 922000 loss: 0.0017 lr: 0.001
+2022-07-23 07:28:27 iteration: 923000 loss: 0.0017 lr: 0.001
+2022-07-23 07:29:48 iteration: 924000 loss: 0.0017 lr: 0.001
+2022-07-23 07:31:08 iteration: 925000 loss: 0.0017 lr: 0.001
+2022-07-23 07:32:27 iteration: 926000 loss: 0.0016 lr: 0.001
+2022-07-23 07:33:48 iteration: 927000 loss: 0.0017 lr: 0.001
+2022-07-23 07:35:08 iteration: 928000 loss: 0.0016 lr: 0.001
+2022-07-23 07:36:27 iteration: 929000 loss: 0.0017 lr: 0.001
+2022-07-23 07:37:47 iteration: 930000 loss: 0.0017 lr: 0.001
+2022-07-23 07:39:07 iteration: 931000 loss: 0.0016 lr: 0.001
+2022-07-23 07:40:27 iteration: 932000 loss: 0.0016 lr: 0.001
+2022-07-23 07:41:48 iteration: 933000 loss: 0.0017 lr: 0.001
+2022-07-23 07:43:07 iteration: 934000 loss: 0.0017 lr: 0.001
+2022-07-23 07:44:28 iteration: 935000 loss: 0.0017 lr: 0.001
+2022-07-23 07:45:48 iteration: 936000 loss: 0.0016 lr: 0.001
+2022-07-23 07:47:07 iteration: 937000 loss: 0.0017 lr: 0.001
+2022-07-23 07:48:28 iteration: 938000 loss: 0.0017 lr: 0.001
+2022-07-23 07:49:46 iteration: 939000 loss: 0.0017 lr: 0.001
+2022-07-23 07:51:07 iteration: 940000 loss: 0.0016 lr: 0.001
+2022-07-23 07:52:26 iteration: 941000 loss: 0.0016 lr: 0.001
+2022-07-23 07:53:47 iteration: 942000 loss: 0.0016 lr: 0.001
+2022-07-23 07:55:07 iteration: 943000 loss: 0.0017 lr: 0.001
+2022-07-23 07:56:27 iteration: 944000 loss: 0.0016 lr: 0.001
+2022-07-23 07:57:47 iteration: 945000 loss: 0.0017 lr: 0.001
+2022-07-23 07:59:07 iteration: 946000 loss: 0.0017 lr: 0.001
+2022-07-23 08:00:27 iteration: 947000 loss: 0.0017 lr: 0.001
+2022-07-23 08:01:48 iteration: 948000 loss: 0.0016 lr: 0.001
+2022-07-23 08:03:06 iteration: 949000 loss: 0.0017 lr: 0.001
+2022-07-23 08:04:27 iteration: 950000 loss: 0.0017 lr: 0.001
+2022-07-23 08:05:49 iteration: 951000 loss: 0.0016 lr: 0.001
+2022-07-23 08:07:07 iteration: 952000 loss: 0.0017 lr: 0.001
+2022-07-23 08:08:26 iteration: 953000 loss: 0.0016 lr: 0.001
+2022-07-23 08:09:44 iteration: 954000 loss: 0.0017 lr: 0.001
+2022-07-23 08:11:04 iteration: 955000 loss: 0.0016 lr: 0.001
+2022-07-23 08:12:25 iteration: 956000 loss: 0.0017 lr: 0.001
+2022-07-23 08:13:45 iteration: 957000 loss: 0.0017 lr: 0.001
+2022-07-23 08:15:05 iteration: 958000 loss: 0.0016 lr: 0.001
+2022-07-23 08:16:25 iteration: 959000 loss: 0.0016 lr: 0.001
+2022-07-23 08:17:45 iteration: 960000 loss: 0.0016 lr: 0.001
+2022-07-23 08:19:06 iteration: 961000 loss: 0.0017 lr: 0.001
+2022-07-23 08:20:27 iteration: 962000 loss: 0.0016 lr: 0.001
+2022-07-23 08:21:47 iteration: 963000 loss: 0.0016 lr: 0.001
+2022-07-23 08:23:07 iteration: 964000 loss: 0.0017 lr: 0.001
+2022-07-23 08:24:28 iteration: 965000 loss: 0.0017 lr: 0.001
+2022-07-23 08:25:49 iteration: 966000 loss: 0.0017 lr: 0.001
+2022-07-23 08:27:10 iteration: 967000 loss: 0.0017 lr: 0.001
+2022-07-23 08:28:30 iteration: 968000 loss: 0.0017 lr: 0.001
+2022-07-23 08:29:50 iteration: 969000 loss: 0.0016 lr: 0.001
+2022-07-23 08:31:10 iteration: 970000 loss: 0.0016 lr: 0.001
+2022-07-23 08:32:31 iteration: 971000 loss: 0.0016 lr: 0.001
+2022-07-23 08:33:51 iteration: 972000 loss: 0.0017 lr: 0.001
+2022-07-23 08:35:12 iteration: 973000 loss: 0.0017 lr: 0.001
+2022-07-23 08:36:31 iteration: 974000 loss: 0.0017 lr: 0.001
+2022-07-23 08:37:51 iteration: 975000 loss: 0.0016 lr: 0.001
+2022-07-23 08:39:10 iteration: 976000 loss: 0.0016 lr: 0.001
+2022-07-23 08:40:32 iteration: 977000 loss: 0.0016 lr: 0.001
+2022-07-23 08:41:52 iteration: 978000 loss: 0.0017 lr: 0.001
+2022-07-23 08:43:12 iteration: 979000 loss: 0.0016 lr: 0.001
+2022-07-23 08:44:32 iteration: 980000 loss: 0.0016 lr: 0.001
+2022-07-23 08:45:52 iteration: 981000 loss: 0.0016 lr: 0.001
+2022-07-23 08:47:12 iteration: 982000 loss: 0.0016 lr: 0.001
+2022-07-23 08:48:32 iteration: 983000 loss: 0.0016 lr: 0.001
+2022-07-23 08:49:53 iteration: 984000 loss: 0.0016 lr: 0.001
+2022-07-23 08:51:14 iteration: 985000 loss: 0.0017 lr: 0.001
+2022-07-23 08:52:35 iteration: 986000 loss: 0.0017 lr: 0.001
+2022-07-23 08:53:55 iteration: 987000 loss: 0.0017 lr: 0.001
+2022-07-23 08:55:16 iteration: 988000 loss: 0.0016 lr: 0.001
+2022-07-23 08:56:36 iteration: 989000 loss: 0.0017 lr: 0.001
+2022-07-23 08:57:57 iteration: 990000 loss: 0.0017 lr: 0.001
+2022-07-23 08:59:18 iteration: 991000 loss: 0.0017 lr: 0.001
+2022-07-23 09:00:40 iteration: 992000 loss: 0.0016 lr: 0.001
+2022-07-23 09:02:01 iteration: 993000 loss: 0.0017 lr: 0.001
+2022-07-23 09:03:20 iteration: 994000 loss: 0.0016 lr: 0.001
+2022-07-23 09:04:40 iteration: 995000 loss: 0.0017 lr: 0.001
+2022-07-23 09:05:59 iteration: 996000 loss: 0.0017 lr: 0.001
+2022-07-23 09:07:20 iteration: 997000 loss: 0.0017 lr: 0.001
+2022-07-23 09:08:40 iteration: 998000 loss: 0.0017 lr: 0.001
+2022-07-23 09:09:59 iteration: 999000 loss: 0.0016 lr: 0.001
+2022-07-23 09:11:19 iteration: 1000000 loss: 0.0017 lr: 0.001
+2022-07-23 09:12:41 iteration: 1001000 loss: 0.0017 lr: 0.001
+2022-07-23 09:14:01 iteration: 1002000 loss: 0.0016 lr: 0.001
+2022-07-23 09:15:22 iteration: 1003000 loss: 0.0016 lr: 0.001
+2022-07-23 09:16:42 iteration: 1004000 loss: 0.0017 lr: 0.001
+2022-07-23 09:18:03 iteration: 1005000 loss: 0.0016 lr: 0.001
+2022-07-23 09:19:24 iteration: 1006000 loss: 0.0017 lr: 0.001
+2022-07-23 09:20:44 iteration: 1007000 loss: 0.0016 lr: 0.001
+2022-07-23 09:22:04 iteration: 1008000 loss: 0.0016 lr: 0.001
+2022-07-23 09:23:24 iteration: 1009000 loss: 0.0016 lr: 0.001
+2022-07-23 09:24:44 iteration: 1010000 loss: 0.0017 lr: 0.001
+2022-07-23 09:26:04 iteration: 1011000 loss: 0.0016 lr: 0.001
+2022-07-23 09:27:25 iteration: 1012000 loss: 0.0017 lr: 0.001
+2022-07-23 09:28:45 iteration: 1013000 loss: 0.0017 lr: 0.001
+2022-07-23 09:30:05 iteration: 1014000 loss: 0.0017 lr: 0.001
+2022-07-23 09:31:26 iteration: 1015000 loss: 0.0016 lr: 0.001
+2022-07-23 09:32:46 iteration: 1016000 loss: 0.0017 lr: 0.001
+2022-07-23 09:34:06 iteration: 1017000 loss: 0.0017 lr: 0.001
+2022-07-23 09:35:27 iteration: 1018000 loss: 0.0016 lr: 0.001
+2022-07-23 09:36:48 iteration: 1019000 loss: 0.0017 lr: 0.001
+2022-07-23 09:38:08 iteration: 1020000 loss: 0.0016 lr: 0.001
+2022-07-23 09:39:29 iteration: 1021000 loss: 0.0016 lr: 0.001
+2022-07-23 09:40:49 iteration: 1022000 loss: 0.0016 lr: 0.001
+2022-07-23 09:42:11 iteration: 1023000 loss: 0.0016 lr: 0.001
+2022-07-23 09:43:32 iteration: 1024000 loss: 0.0016 lr: 0.001
+2022-07-23 09:44:51 iteration: 1025000 loss: 0.0017 lr: 0.001
+2022-07-23 09:46:11 iteration: 1026000 loss: 0.0016 lr: 0.001
+2022-07-23 09:47:31 iteration: 1027000 loss: 0.0016 lr: 0.001
+2022-07-23 09:48:51 iteration: 1028000 loss: 0.0016 lr: 0.001
+2022-07-23 09:50:11 iteration: 1029000 loss: 0.0016 lr: 0.001
+2022-07-23 09:51:31 iteration: 1030000 loss: 0.0017 lr: 0.001
+2022-07-23 11:57:35 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7]],
+ 'all_joints_names': ['nose',
+                      'neck',
+                      'leftforepaw',
+                      'rightforepaw',
+                      'lefthindpaw',
+                      'righthindpaw',
+                      'baseoftail',
+                      'tail'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-8\\UnaugmentedDataSet_BellyCam '
+            'ModelJun24\\BellyCam Model_Andrada95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\Experiment\\anaconda3\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 8,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'D:\\Brandon\\BellyCam-Model\\dlc-models\\iteration-8\\BellyCam '
+                    'ModelJun24-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-07-23 12:05:20 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7]],
+ 'all_joints_names': ['nose',
+                      'neck',
+                      'leftforepaw',
+                      'rightforepaw',
+                      'lefthindpaw',
+                      'righthindpaw',
+                      'baseoftail',
+                      'tail'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-8\\UnaugmentedDataSet_BellyCam '
+            'ModelJun24\\BellyCam Model_Andrada95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\Experiment\\anaconda3\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 8,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'D:\\Brandon\\BellyCam-Model\\dlc-models\\iteration-8\\BellyCam '
+                    'ModelJun24-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-07-24 13:29:25 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7]],
+ 'all_joints_names': ['nose',
+                      'neck',
+                      'leftforepaw',
+                      'rightforepaw',
+                      'lefthindpaw',
+                      'righthindpaw',
+                      'baseoftail',
+                      'tail'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-8\\UnaugmentedDataSet_BellyCam '
+            'ModelJun24\\BellyCam Model_Andrada95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\Experiment\\anaconda3\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 8,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'D:\\Brandon\\BellyCam-Model\\dlc-models\\iteration-8\\BellyCam '
+                    'ModelJun24-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+2022-07-25 10:10:53 Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7]],
+ 'all_joints_names': ['nose',
+                      'neck',
+                      'leftforepaw',
+                      'rightforepaw',
+                      'lefthindpaw',
+                      'righthindpaw',
+                      'baseoftail',
+                      'tail'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets\\iteration-8\\UnaugmentedDataSet_BellyCam '
+            'ModelJun24\\BellyCam Model_Andrada95shuffle1.mat',
+ 'dataset_type': 'imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': 'C:\\Users\\Experiment\\anaconda3\\envs\\DEEPLABCUT\\lib\\site-packages\\deeplabcut\\pose_estimation_tensorflow\\models\\pretrained\\resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'mirror': False,
+ 'net_type': 'resnet_50',
+ 'num_joints': 8,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_predict': False,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'snapshot_prefix': 'D:\\Brandon\\BellyCam-Model\\dlc-models\\iteration-8\\BellyCam '
+                    'ModelJun24-trainset95shuffle1\\test\\snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}

@@ -1,0 +1,27 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+all_joints_names:
+- nose
+- neck
+- leftforepaw
+- rightforepaw
+- lefthindpaw
+- righthindpaw
+- baseoftail
+- tail
+dataset: training-datasets\iteration-9\UnaugmentedDataSet_BellyCam ModelJun24\BellyCam
+  Model_Andrada95shuffle1.mat
+global_scale: 0.8
+init_weights: C:\Users\Experiment\anaconda3\envs\DEEPLABCUT\lib\site-packages\deeplabcut\pose_estimation_tensorflow\models\pretrained\resnet_v1_50.ckpt
+location_refinement: true
+locref_stdev: 7.2801
+net_type: resnet_50
+num_joints: 8
+scoremap_dir: test
