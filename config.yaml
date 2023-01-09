@@ -6,7 +6,7 @@ multianimalproject: false
 identity:
 
     # Project path (change when moving around)
-project_path: C:/Users/EnnyB/Documents/GitHub/BellyCam-Model
+project_path: C:\Users\User\Documents\GitHub\BellyCam-Model
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
@@ -57,6 +57,8 @@ video_sets:
   \2021-06-22_101_EB004_bellyCam.mj2:
     crop: 0, 640, 0, 512
 
+  C:\Users\User\Documents\GitHub\BellyCam-Model\videos\2022-01-28_103_EB011_bellyCam.mj2:
+    crop: 0, 640, 0, 512
 bodyparts:
 - nose
 - neck
@@ -67,6 +69,14 @@ bodyparts:
 - baseoftail
 - tail
 
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 start: 0
@@ -88,7 +98,7 @@ colormap: plasma
     # Training,Evaluation and Analysis configuration
 TrainingFraction:
 - 0.95
-iteration: 7
+iteration: 10
 default_net_type: resnet_50
 default_augmenter: default
 snapshotindex: -1
