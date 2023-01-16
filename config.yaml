@@ -6,7 +6,7 @@ multianimalproject: false
 identity:
 
     # Project path (change when moving around)
-project_path: C:\Users\User\Documents\GitHub\BellyCam-Model
+project_path: C:/Users/EnnyB/Documents/GitHub/BellyCam-Model
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
@@ -69,6 +69,8 @@ bodyparts:
 - baseoftail
 - tail
 
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
 
     # Fraction of video to start/stop when extracting frames for labeling/refinement
 
